@@ -1,6 +1,5 @@
-#To Fully run the MeteoVFX - to minimize install/setup process - minimal resources and assets from
-#two free Unity Technologies Assets Store product with included Third-Party licences are pre-included in the project
+#Template and Utilities scripts by Far From Here Studio - 2024, provided as it, feel free to use and modify this template content
+#Book Of The Dead original demo by Unity Technologies following the Assets Store product licensing, with Third-Party licences pre-included in the project like in the original version
 #Third-Party assets provided from the Asset Store relatives packages on the courtesy of Unity Technologies
-===========================================
-#Unity Terrain - HDRP Demo Scene under Standard Unity Asset Store EULA; see Third-Party Notices.txt file in package for details.
-#Terrain Sample Asset Pack under Open Data Commons Open Database License; see Third-Party Notices.txt file in package for details.
+#BOTD Demo Resources updated and modified from Delacrowa original repository : https://github.com/Delacrowa/book-of-the-dead-environment-hdrp , by FFHStudioHugo in 2024.
+ 
