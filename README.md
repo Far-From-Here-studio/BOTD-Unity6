@@ -11,7 +11,7 @@ Complete Demo Scene
 Implemented the FFH template
 FSR2 + realtime GI setup
 
-=> you can load BOTD gameplay content by loading BootStrapDemo.unity (which have the global volumes for sky etc)
+=> you can load BOTD gameplay content by loading BootStrapDemo.unity(which have the global volumes for sky etc) in Assets/FarFromHere/..
 Then use the SceneLoader gameObject to load the full BOTD ScenesList, press play
 
 Enjoy :)
