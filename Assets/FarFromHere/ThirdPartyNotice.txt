@@ -1,0 +1,6 @@
+#To Fully run the MeteoVFX - to minimize install/setup process - minimal resources and assets from
+#two free Unity Technologies Assets Store product with included Third-Party licences are pre-included in the project
+#Third-Party assets provided from the Asset Store relatives packages on the courtesy of Unity Technologies
+===========================================
+#Unity Terrain - HDRP Demo Scene under Standard Unity Asset Store EULA; see Third-Party Notices.txt file in package for details.
+#Terrain Sample Asset Pack under Open Data Commons Open Database License; see Third-Party Notices.txt file in package for details.
