@@ -1,0 +1,1944 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: NewShaderVariants
+  m_Shaders:
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: _ANIM_OFF _DETAILMODE_OFF _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: _ANIM_OFF _DETAILMODE_OFF _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+      - keywords: AREA_SHADOW_MEDIUM DECALS_4RT DECAL_SURFACE_GRADIENT DIRECTIONAL_SHADOW_LOW
+          PROBE_VOLUMES_L1 PUNCTUAL_SHADOW_LOW SCREEN_SPACE_SHADOWS_ON USE_CLUSTERED_LIGHTLIST
+          _DISABLE_SSR_TRANSPARENT
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_L1 _DISABLE_SSR_TRANSPARENT
+        passType: 13
+      - keywords: _DISABLE_SSR_TRANSPARENT
+        passType: 13
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+      - keywords: AREA_SHADOW_MEDIUM DECALS_4RT DECAL_SURFACE_GRADIENT DIRECTIONAL_SHADOW_LOW
+          PROBE_VOLUMES_L1 PUNCTUAL_SHADOW_LOW SCREEN_SPACE_SHADOWS_ON USE_CLUSTERED_LIGHTLIST
+          _DISABLE_SSR_TRANSPARENT
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_L1 RENDERING_LAYERS
+          _DISABLE_SSR_TRANSPARENT
+        passType: 13
+      - keywords: WRITE_DECAL_BUFFER _DISABLE_SSR_TRANSPARENT
+        passType: 13
+      - keywords: _DISABLE_SSR_TRANSPARENT
+        passType: 13
+      - keywords: _TESSELLATION_PHONG
+        passType: 13
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: _ANIM_OFF _DETAILMODE_OFF _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: AREA_SHADOW_MEDIUM DECALS_4RT DECAL_SURFACE_GRADIENT DIRECTIONAL_SHADOW_LOW
+          PROBE_VOLUMES_L1 PUNCTUAL_SHADOW_LOW SCREEN_SPACE_SHADOWS_ON USE_CLUSTERED_LIGHTLIST
+          _ALPHATEST_ON _DISABLE_SSR_TRANSPARENT _MATERIAL_FEATURE_COLORED_TRANSMISSION
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_L1 RENDERING_LAYERS
+          _ALPHATEST_ON _DISABLE_SSR_TRANSPARENT _MATERIAL_FEATURE_COLORED_TRANSMISSION
+        passType: 13
+      - keywords: WRITE_DECAL_BUFFER _ALPHATEST_ON _DISABLE_SSR_TRANSPARENT _MATERIAL_FEATURE_COLORED_TRANSMISSION
+        passType: 13
+      - keywords: _ALPHATEST_ON
+        passType: 13
+      - keywords: _ALPHATEST_ON _DISABLE_SSR_TRANSPARENT _MATERIAL_FEATURE_COLORED_TRANSMISSION
+        passType: 13
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: _ANIM_OFF _DETAILMODE_OFF _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: _ANIM_OFF _DETAILMODE_OFF _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: AREA_SHADOW_MEDIUM DECALS_4RT DECAL_SURFACE_GRADIENT DIRECTIONAL_SHADOW_LOW
+          PROBE_VOLUMES_L1 PUNCTUAL_SHADOW_LOW SCREEN_SPACE_SHADOWS_ON USE_CLUSTERED_LIGHTLIST
+          _ALPHATEST_ON _DISABLE_SSR_TRANSPARENT _MATERIAL_FEATURE_COLORED_TRANSMISSION
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_L1 _ALPHATEST_ON
+          _DISABLE_SSR_TRANSPARENT _MATERIAL_FEATURE_COLORED_TRANSMISSION
+        passType: 13
+      - keywords: _ALPHATEST_ON
+        passType: 13
+      - keywords: _ALPHATEST_ON _DISABLE_SSR_TRANSPARENT _MATERIAL_FEATURE_COLORED_TRANSMISSION
+        passType: 13
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: _ANIM_OFF _DETAILMODE_OFF _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: _ANIM_OFF _DETAILMODE_OFF _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: _ANIM_OFF _DETAILMODE_OFF _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+      - keywords: AREA_SHADOW_MEDIUM DECALS_4RT DECAL_SURFACE_GRADIENT DIRECTIONAL_SHADOW_LOW
+          PROBE_VOLUMES_L1 PUNCTUAL_SHADOW_LOW SCREEN_SPACE_SHADOWS_ON USE_CLUSTERED_LIGHTLIST
+          _DISABLE_SSR_TRANSPARENT
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_L1 RENDERING_LAYERS
+          _DISABLE_SSR_TRANSPARENT
+        passType: 13
+      - keywords: WRITE_DECAL_BUFFER _DISABLE_SSR_TRANSPARENT
+        passType: 13
+      - keywords: _DISABLE_SSR_TRANSPARENT
+        passType: 13
+  - first: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 66, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 106, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: _SUNDISK_SIMPLE
+        passType: 0
+  - first: {fileID: 10490, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+      - keywords: INSTANCING_ON
+        passType: 13
+  - first: {fileID: 9000, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9001, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9002, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9003, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9004, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9007, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9101, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9103, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: UIE_FORCE_GAMMA
+        passType: 0
+  - first: {fileID: 18002, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 19011, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 12f1a69ddf916f042ae6ce8a994506f3, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 6e4ae4064600d784cac1e41a9e6f2e59, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: INSTANCING_ON _DETAIL_MAP _DISABLE_SSR_TRANSPARENT _MASKMAP _NORMALMAP
+        passType: 8
+      - keywords: LOD_FADE_CROSSFADE _DETAIL_MAP _DISABLE_SSR_TRANSPARENT _MASKMAP
+          _NORMALMAP
+        passType: 8
+      - keywords: _DETAIL_MAP _DISABLE_SSR_TRANSPARENT _MASKMAP _NORMALMAP
+        passType: 8
+      - keywords: _DISABLE_SSR_TRANSPARENT _NORMALMAP_TANGENT_SPACE
+        passType: 8
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT LOD_FADE_CROSSFADE PROBE_VOLUMES_L1
+          RENDERING_LAYERS _DETAIL_MAP _DISABLE_SSR_TRANSPARENT _MASKMAP _NORMALMAP
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_L1 RENDERING_LAYERS
+          _DETAIL_MAP _DISABLE_SSR_TRANSPARENT _MASKMAP _NORMALMAP
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_L1 _DISABLE_SSR_TRANSPARENT
+          _NORMALMAP_TANGENT_SPACE
+        passType: 13
+      - keywords: LOD_FADE_CROSSFADE WRITE_DECAL_BUFFER _DETAIL_MAP _DISABLE_SSR_TRANSPARENT
+          _MASKMAP _NORMALMAP
+        passType: 13
+      - keywords: LOD_FADE_CROSSFADE WRITE_DECAL_BUFFER _DISABLE_SSR_TRANSPARENT
+          _NORMALMAP
+        passType: 13
+      - keywords: WRITE_DECAL_BUFFER _DETAIL_MAP _DISABLE_SSR_TRANSPARENT _MASKMAP
+          _NORMALMAP
+        passType: 13
+      - keywords: WRITE_DECAL_BUFFER _DISABLE_SSR_TRANSPARENT _NORMALMAP
+        passType: 13
+      - keywords: _DISABLE_SSR_TRANSPARENT
+        passType: 13
+      - keywords: _DISABLE_SSR_TRANSPARENT _NORMALMAP_TANGENT_SPACE
+        passType: 13
+  - first: {fileID: 4800000, guid: 035941b63024d1943af48811c1db20d9, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 02ae56f4306413c4a96dcf005cde1971, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 8ea49ef16606acd489439e676ab84040, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 42dfcc8fe803ece4096c58630689982f, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: e22fc1942c664490980b8793dd4a163d, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: DISABLE_TEXTURE2D_X_ARRAY
+        passType: 0
+  - first: {fileID: 4800000, guid: 67d6171b0acc6554aad48c845ec7e67f, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 2ad7ce40f0dbaf64dadef1f58d8524d3, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: NEAREST_DEPTH
+        passType: 0
+  - first: {fileID: 4800000, guid: 2e37131331fbdca449b1a2bc47a639ca, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 32f724728cf19904291226f239ec16f0, type: 3}
+    second:
+      variants:
+      - keywords: NO_WATER
+        passType: 0
+  - first: {fileID: 4800000, guid: 9bd32a6ece529fd4f9408b8d7e00c10d, type: 3}
+    second:
+      variants:
+      - keywords: AREA_SHADOW_MEDIUM DIRECTIONAL_SHADOW_LOW PUNCTUAL_SHADOW_LOW USE_CLUSTERED_LIGHTLIST
+        passType: 0
+  - first: {fileID: 4800000, guid: a06934a4863e778498be65d8f865b7a4, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 8d9fbe0862434a2298748d335b9abea5, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 123f13d52852ef547b2962de4bd9eaad, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 3b3bf235775cf8b4baae7f3306787ab0, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: d279c46a545b0af4f9f0c4fa82cd489e, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: a6402c19b020b4a4fb7073aaa2e26aba, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 123ed592ad5c2494b8aed301fd609e7b, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: d850d0a2481878d4bbf17e5126b04163, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: e3cab24f27741f44d8af1e94d006267c, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: fd532bf1795188c4daaa66ea798b8b0a, type: 3}
+    second:
+      variants:
+      - keywords: DECAL_SURFACE_GRADIENT
+        passType: 0
+  - first: {fileID: 4800000, guid: 5ac9ef0c50282754b93c7692488e7ee7, type: 3}
+    second:
+      variants:
+      - keywords: APPLY_AFTER_POST
+        passType: 0
+      - keywords: APPLY_AFTER_POST BYPASS
+        passType: 0
+  - first: {fileID: 4800000, guid: 3dd9fd928fdb83743b1f27d15df22179, type: 3}
+    second:
+      variants:
+      - keywords: FORCE_BILINEAR_HISTORY HISTORY_CONTRAST_ANTI_FLICKER MEDIUM_QUALITY
+        passType: 0
+      - keywords: MEDIUM_QUALITY
+        passType: 0
+  - first: {fileID: 4800000, guid: c4edd00ff2db5b24391a4fcb1762e459, type: 3}
+    second:
+      variants:
+      - keywords: _SURFACE_TYPE_TRANSPARENT
+        passType: 8
+      - keywords: _SURFACE_TYPE_TRANSPARENT
+        passType: 13
+  - first: {fileID: 4800000, guid: eb607f5e8fc16e140b732f33d26c8c31, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: INSTANCING_ON _NORMALMAP _TERRAIN_BLEND_HEIGHT _TERRAIN_INSTANCED_PERPIXEL_NORMAL
+        passType: 8
+      - keywords: INSTANCING_ON _NORMALMAP _TERRAIN_INSTANCED_PERPIXEL_NORMAL
+        passType: 8
+      - keywords: INSTANCING_ON _TERRAIN_BLEND_HEIGHT _TERRAIN_INSTANCED_PERPIXEL_NORMAL
+        passType: 8
+      - keywords: INSTANCING_ON _TERRAIN_INSTANCED_PERPIXEL_NORMAL
+        passType: 8
+      - keywords: _TERRAIN_BLEND_HEIGHT _TERRAIN_INSTANCED_PERPIXEL_NORMAL
+        passType: 8
+      - keywords: _TERRAIN_INSTANCED_PERPIXEL_NORMAL
+        passType: 8
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT INSTANCING_ON PROBE_VOLUMES_L1
+          RENDERING_LAYERS _NORMALMAP _TERRAIN_BLEND_HEIGHT _TERRAIN_INSTANCED_PERPIXEL_NORMAL
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT INSTANCING_ON PROBE_VOLUMES_L1
+          RENDERING_LAYERS _NORMALMAP _TERRAIN_INSTANCED_PERPIXEL_NORMAL
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT MINIMAL_GBUFFER PROBE_VOLUMES_L1
+          _NORMALMAP _TERRAIN_BLEND_HEIGHT _TERRAIN_INSTANCED_PERPIXEL_NORMAL
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_L1 _TERRAIN_BLEND_HEIGHT
+          _TERRAIN_INSTANCED_PERPIXEL_NORMAL
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_L1 _TERRAIN_INSTANCED_PERPIXEL_NORMAL
+        passType: 13
+      - keywords: INSTANCING_ON WRITE_DECAL_BUFFER _NORMALMAP _TERRAIN_BLEND_HEIGHT
+          _TERRAIN_INSTANCED_PERPIXEL_NORMAL
+        passType: 13
+      - keywords: INSTANCING_ON WRITE_DECAL_BUFFER _NORMALMAP _TERRAIN_INSTANCED_PERPIXEL_NORMAL
+        passType: 13
+      - keywords: INSTANCING_ON _NORMALMAP _TERRAIN_BLEND_HEIGHT _TERRAIN_INSTANCED_PERPIXEL_NORMAL
+        passType: 13
+      - keywords: _TERRAIN_BLEND_HEIGHT _TERRAIN_INSTANCED_PERPIXEL_NORMAL
+        passType: 13
+      - keywords: _TERRAIN_INSTANCED_PERPIXEL_NORMAL
+        passType: 13
+  - first: {fileID: 4800000, guid: be07626d9cb737d49aef25821700e2fa, type: 3}
+    second:
+      variants:
+      - keywords: INSTANCING_ON _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: INSTANCING_ON _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: INSTANCING_ON _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: INSTANCING_ON _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: INSTANCING_ON _ANIM_HIERARCHY_PIVOT _DETAILMODE_PEELED_DETAILMAP__FOREST4_
+          _DISABLE_SSR_TRANSPARENT _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: INSTANCING_ON _ANIM_HIERARCHY_PIVOT _DETAILMODE_PEELED_DETAILMAP__FOREST4_
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: INSTANCING_ON _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_
+          _DISABLE_SSR_TRANSPARENT _MASKMAP _NORMALMAPSPACE_OBJECT_SPACE
+        passType: 8
+      - keywords: INSTANCING_ON _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_
+          _DISABLE_SSR_TRANSPARENT _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: INSTANCING_ON _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_
+          _DISABLE_SSR_TRANSPARENT _NORMALMAPSPACE_OBJECT_SPACE
+        passType: 8
+      - keywords: INSTANCING_ON _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_
+          _DISABLE_SSR_TRANSPARENT _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: INSTANCING_ON _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_
+          _MASKMAP _NORMALMAPSPACE_OBJECT_SPACE
+        passType: 8
+      - keywords: INSTANCING_ON _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: INSTANCING_ON _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_
+          _NORMALMAPSPACE_OBJECT_SPACE
+        passType: 8
+      - keywords: INSTANCING_ON _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: INSTANCING_ON _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _MASKMAP _NORMALMAPSPACE_OBJECT_SPACE
+        passType: 8
+      - keywords: INSTANCING_ON _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: INSTANCING_ON _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: INSTANCING_ON _ANIM_OFF _DETAILMODE_OFF _MASKMAP _NORMALMAPSPACE_OBJECT_SPACE
+        passType: 8
+      - keywords: INSTANCING_ON _ANIM_OFF _DETAILMODE_OFF _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: INSTANCING_ON _ANIM_OFF _DETAILMODE_OFF _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: INSTANCING_ON _ANIM_OFF _DETAILMODE_PEELED_DETAILMAP__FOREST4_
+          _DISABLE_SSR_TRANSPARENT _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: INSTANCING_ON _ANIM_OFF _DETAILMODE_PEELED_DETAILMAP__FOREST4_
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: INSTANCING_ON _ANIM_PROCEDURAL_BRANCH _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: INSTANCING_ON _ANIM_PROCEDURAL_BRANCH _DETAILMODE_OFF _MASKMAP
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: INSTANCING_ON _ANIM_SINGLE_PIVOT_COLOR _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: INSTANCING_ON _ANIM_SINGLE_PIVOT_COLOR _DETAILMODE_OFF _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: _ANIM_HIERARCHY_PIVOT _DETAILMODE_PEELED_DETAILMAP__FOREST4_ _DISABLE_SSR_TRANSPARENT
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: _ANIM_HIERARCHY_PIVOT _DETAILMODE_PEELED_DETAILMAP__FOREST4_ _MASKMAP
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_ _DISABLE_SSR_TRANSPARENT
+          _MASKMAP _NORMALMAPSPACE_OBJECT_SPACE
+        passType: 8
+      - keywords: _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_ _DISABLE_SSR_TRANSPARENT
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_ _DISABLE_SSR_TRANSPARENT
+          _NORMALMAPSPACE_OBJECT_SPACE
+        passType: 8
+      - keywords: _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_ _DISABLE_SSR_TRANSPARENT
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_ _MASKMAP _NORMALMAPSPACE_OBJECT_SPACE
+        passType: 8
+      - keywords: _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_ _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_ _NORMALMAPSPACE_OBJECT_SPACE
+        passType: 8
+      - keywords: _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_ _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _MASKMAP _NORMALMAPSPACE_OBJECT_SPACE
+        passType: 8
+      - keywords: _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: _ANIM_OFF _DETAILMODE_OFF _DOUBLESIDED_ON _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: _ANIM_OFF _DETAILMODE_OFF _MASKMAP _NORMALMAPSPACE_OBJECT_SPACE
+        passType: 8
+      - keywords: _ANIM_OFF _DETAILMODE_OFF _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: _ANIM_OFF _DETAILMODE_OFF _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: _ANIM_OFF _DETAILMODE_PEELED_DETAILMAP__FOREST4_ _DISABLE_SSR_TRANSPARENT
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: _ANIM_OFF _DETAILMODE_PEELED_DETAILMAP__FOREST4_ _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: _ANIM_PROCEDURAL_BRANCH _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: _ANIM_PROCEDURAL_BRANCH _DETAILMODE_OFF _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: _ANIM_SINGLE_PIVOT_COLOR _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: _ANIM_SINGLE_PIVOT_COLOR _DETAILMODE_OFF _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: INSTANCING_ON WRITE_DECAL_BUFFER_AND_RENDERING_LAYER _ANIM_HIERARCHY_PIVOT
+          _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 12
+      - keywords: INSTANCING_ON WRITE_DECAL_BUFFER_AND_RENDERING_LAYER _ANIM_HIERARCHY_PIVOT
+          _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 12
+      - keywords: INSTANCING_ON WRITE_DECAL_BUFFER_AND_RENDERING_LAYER _ANIM_HIERARCHY_PIVOT
+          _DETAILMODE_PEELED_DETAILMAP__FOREST4_ _DISABLE_SSR_TRANSPARENT _MASKMAP
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 12
+      - keywords: INSTANCING_ON WRITE_DECAL_BUFFER_AND_RENDERING_LAYER _ANIM_PROCEDURAL_BRANCH
+          _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 12
+      - keywords: INSTANCING_ON _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 12
+      - keywords: INSTANCING_ON _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 12
+      - keywords: INSTANCING_ON _ANIM_HIERARCHY_PIVOT _DETAILMODE_PEELED_DETAILMAP__FOREST4_
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 12
+      - keywords: INSTANCING_ON _ANIM_PROCEDURAL_BRANCH _DETAILMODE_OFF _MASKMAP
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 12
+      - keywords: WRITE_DECAL_BUFFER_AND_RENDERING_LAYER _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF
+          _DISABLE_SSR_TRANSPARENT _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 12
+      - keywords: WRITE_DECAL_BUFFER_AND_RENDERING_LAYER _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF
+          _DISABLE_SSR_TRANSPARENT _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 12
+      - keywords: WRITE_DECAL_BUFFER_AND_RENDERING_LAYER _ANIM_HIERARCHY_PIVOT _DETAILMODE_PEELED_DETAILMAP__FOREST4_
+          _DISABLE_SSR_TRANSPARENT _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 12
+      - keywords: WRITE_DECAL_BUFFER_AND_RENDERING_LAYER _ANIM_PROCEDURAL_BRANCH
+          _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 12
+      - keywords: WRITE_DECAL_BUFFER_AND_RENDERING_LAYER _ANIM_SINGLE_PIVOT_COLOR
+          _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 12
+      - keywords: _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 12
+      - keywords: _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 12
+      - keywords: _ANIM_HIERARCHY_PIVOT _DETAILMODE_PEELED_DETAILMAP__FOREST4_ _MASKMAP
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 12
+      - keywords: _ANIM_PROCEDURAL_BRANCH _DETAILMODE_OFF _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 12
+      - keywords: _ANIM_SINGLE_PIVOT_COLOR _DETAILMODE_OFF _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 12
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT INSTANCING_ON PROBE_VOLUMES_L1
+          RENDERING_LAYERS _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT INSTANCING_ON PROBE_VOLUMES_L1
+          RENDERING_LAYERS _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT INSTANCING_ON PROBE_VOLUMES_L1
+          RENDERING_LAYERS _ANIM_HIERARCHY_PIVOT _DETAILMODE_PEELED_DETAILMAP__FOREST4_
+          _DISABLE_SSR_TRANSPARENT _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT INSTANCING_ON PROBE_VOLUMES_L1
+          RENDERING_LAYERS _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_ _DISABLE_SSR_TRANSPARENT
+          _MASKMAP _NORMALMAPSPACE_OBJECT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT INSTANCING_ON PROBE_VOLUMES_L1
+          RENDERING_LAYERS _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_ _DISABLE_SSR_TRANSPARENT
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT INSTANCING_ON PROBE_VOLUMES_L1
+          RENDERING_LAYERS _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_ _DISABLE_SSR_TRANSPARENT
+          _NORMALMAPSPACE_OBJECT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT INSTANCING_ON PROBE_VOLUMES_L1
+          RENDERING_LAYERS _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_ _DISABLE_SSR_TRANSPARENT
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT INSTANCING_ON PROBE_VOLUMES_L1
+          RENDERING_LAYERS _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _MASKMAP
+          _NORMALMAPSPACE_OBJECT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT INSTANCING_ON PROBE_VOLUMES_L1
+          RENDERING_LAYERS _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _MASKMAP
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT INSTANCING_ON PROBE_VOLUMES_L1
+          RENDERING_LAYERS _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT INSTANCING_ON PROBE_VOLUMES_L1
+          RENDERING_LAYERS _ANIM_OFF _DETAILMODE_PEELED_DETAILMAP__FOREST4_ _DISABLE_SSR_TRANSPARENT
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT INSTANCING_ON PROBE_VOLUMES_L1
+          RENDERING_LAYERS _ANIM_PROCEDURAL_BRANCH _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT INSTANCING_ON PROBE_VOLUMES_L1
+          _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_ _DISABLE_SSR_TRANSPARENT
+          _MASKMAP _NORMALMAPSPACE_OBJECT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT INSTANCING_ON PROBE_VOLUMES_L1
+          _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_ _DISABLE_SSR_TRANSPARENT
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT INSTANCING_ON PROBE_VOLUMES_L1
+          _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_ _DISABLE_SSR_TRANSPARENT
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT INSTANCING_ON PROBE_VOLUMES_L1
+          _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_L1 RENDERING_LAYERS
+          _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _MASKMAP
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_L1 RENDERING_LAYERS
+          _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_L1 RENDERING_LAYERS
+          _ANIM_HIERARCHY_PIVOT _DETAILMODE_PEELED_DETAILMAP__FOREST4_ _DISABLE_SSR_TRANSPARENT
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_L1 RENDERING_LAYERS
+          _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_ _DISABLE_SSR_TRANSPARENT
+          _MASKMAP _NORMALMAPSPACE_OBJECT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_L1 RENDERING_LAYERS
+          _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_ _DISABLE_SSR_TRANSPARENT
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_L1 RENDERING_LAYERS
+          _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_ _DISABLE_SSR_TRANSPARENT
+          _NORMALMAPSPACE_OBJECT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_L1 RENDERING_LAYERS
+          _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_ _DISABLE_SSR_TRANSPARENT
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_L1 RENDERING_LAYERS
+          _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON _MASKMAP
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_L1 RENDERING_LAYERS
+          _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _MASKMAP _NORMALMAPSPACE_OBJECT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_L1 RENDERING_LAYERS
+          _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_L1 RENDERING_LAYERS
+          _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_L1 RENDERING_LAYERS
+          _ANIM_OFF _DETAILMODE_PEELED_DETAILMAP__FOREST4_ _DISABLE_SSR_TRANSPARENT
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_L1 RENDERING_LAYERS
+          _ANIM_PROCEDURAL_BRANCH _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _MASKMAP
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_L1 RENDERING_LAYERS
+          _ANIM_SINGLE_PIVOT_COLOR _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_L1 _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_
+          _DISABLE_SSR_TRANSPARENT _MASKMAP _NORMALMAPSPACE_OBJECT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_L1 _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_
+          _DISABLE_SSR_TRANSPARENT _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_L1 _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_
+          _DISABLE_SSR_TRANSPARENT _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_L1 _ANIM_OFF _DETAILMODE_OFF
+          _DISABLE_SSR_TRANSPARENT _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_L1 _ANIM_OFF _DETAILMODE_OFF
+          _DISABLE_SSR_TRANSPARENT _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: INSTANCING_ON WRITE_DECAL_BUFFER _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_
+          _DISABLE_SSR_TRANSPARENT _MASKMAP _NORMALMAPSPACE_OBJECT_SPACE
+        passType: 13
+      - keywords: INSTANCING_ON WRITE_DECAL_BUFFER _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_
+          _DISABLE_SSR_TRANSPARENT _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: INSTANCING_ON WRITE_DECAL_BUFFER _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_
+          _DISABLE_SSR_TRANSPARENT _NORMALMAPSPACE_OBJECT_SPACE
+        passType: 13
+      - keywords: INSTANCING_ON WRITE_DECAL_BUFFER _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_
+          _DISABLE_SSR_TRANSPARENT _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: INSTANCING_ON WRITE_DECAL_BUFFER _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _MASKMAP _NORMALMAPSPACE_OBJECT_SPACE
+        passType: 13
+      - keywords: INSTANCING_ON WRITE_DECAL_BUFFER _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: INSTANCING_ON WRITE_DECAL_BUFFER _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: INSTANCING_ON WRITE_DECAL_BUFFER _ANIM_OFF _DETAILMODE_PEELED_DETAILMAP__FOREST4_
+          _DISABLE_SSR_TRANSPARENT _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: INSTANCING_ON _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: INSTANCING_ON _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: INSTANCING_ON _ANIM_HIERARCHY_PIVOT _DETAILMODE_PEELED_DETAILMAP__FOREST4_
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: INSTANCING_ON _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_
+          _DISABLE_SSR_TRANSPARENT _MASKMAP _NORMALMAPSPACE_OBJECT_SPACE
+        passType: 13
+      - keywords: INSTANCING_ON _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_
+          _DISABLE_SSR_TRANSPARENT _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: INSTANCING_ON _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_
+          _DISABLE_SSR_TRANSPARENT _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: INSTANCING_ON _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_
+          _MASKMAP _NORMALMAPSPACE_OBJECT_SPACE
+        passType: 13
+      - keywords: INSTANCING_ON _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: INSTANCING_ON _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_
+          _NORMALMAPSPACE_OBJECT_SPACE
+        passType: 13
+      - keywords: INSTANCING_ON _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: INSTANCING_ON _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: INSTANCING_ON _ANIM_OFF _DETAILMODE_OFF _MASKMAP _NORMALMAPSPACE_OBJECT_SPACE
+        passType: 13
+      - keywords: INSTANCING_ON _ANIM_OFF _DETAILMODE_OFF _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: INSTANCING_ON _ANIM_OFF _DETAILMODE_OFF _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: INSTANCING_ON _ANIM_OFF _DETAILMODE_PEELED_DETAILMAP__FOREST4_
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: INSTANCING_ON _ANIM_PROCEDURAL_BRANCH _DETAILMODE_OFF _MASKMAP
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: WRITE_DECAL_BUFFER _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: WRITE_DECAL_BUFFER _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: WRITE_DECAL_BUFFER _ANIM_HIERARCHY_PIVOT _DETAILMODE_PEELED_DETAILMAP__FOREST4_
+          _DISABLE_SSR_TRANSPARENT _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: WRITE_DECAL_BUFFER _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_
+          _DISABLE_SSR_TRANSPARENT _MASKMAP _NORMALMAPSPACE_OBJECT_SPACE
+        passType: 13
+      - keywords: WRITE_DECAL_BUFFER _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_
+          _DISABLE_SSR_TRANSPARENT _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: WRITE_DECAL_BUFFER _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_
+          _DISABLE_SSR_TRANSPARENT _NORMALMAPSPACE_OBJECT_SPACE
+        passType: 13
+      - keywords: WRITE_DECAL_BUFFER _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_
+          _DISABLE_SSR_TRANSPARENT _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: WRITE_DECAL_BUFFER _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _DOUBLESIDED_ON _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: WRITE_DECAL_BUFFER _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _MASKMAP _NORMALMAPSPACE_OBJECT_SPACE
+        passType: 13
+      - keywords: WRITE_DECAL_BUFFER _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: WRITE_DECAL_BUFFER _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: WRITE_DECAL_BUFFER _ANIM_OFF _DETAILMODE_PEELED_DETAILMAP__FOREST4_
+          _DISABLE_SSR_TRANSPARENT _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: WRITE_DECAL_BUFFER _ANIM_PROCEDURAL_BRANCH _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: _ANIM_HIERARCHY_PIVOT _DETAILMODE_PEELED_DETAILMAP__FOREST4_ _DISABLE_SSR_TRANSPARENT
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: _ANIM_HIERARCHY_PIVOT _DETAILMODE_PEELED_DETAILMAP__FOREST4_ _MASKMAP
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_ _DISABLE_SSR_TRANSPARENT
+          _MASKMAP _NORMALMAPSPACE_OBJECT_SPACE
+        passType: 13
+      - keywords: _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_ _DISABLE_SSR_TRANSPARENT
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_ _DISABLE_SSR_TRANSPARENT
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_ _MASKMAP _NORMALMAPSPACE_OBJECT_SPACE
+        passType: 13
+      - keywords: _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_ _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_ _NORMALMAPSPACE_OBJECT_SPACE
+        passType: 13
+      - keywords: _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_ _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _MASKMAP _NORMALMAPSPACE_OBJECT_SPACE
+        passType: 13
+      - keywords: _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: _ANIM_OFF _DETAILMODE_OFF _DOUBLESIDED_ON _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: _ANIM_OFF _DETAILMODE_OFF _MASKMAP _NORMALMAPSPACE_OBJECT_SPACE
+        passType: 13
+      - keywords: _ANIM_OFF _DETAILMODE_OFF _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: _ANIM_OFF _DETAILMODE_OFF _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: _ANIM_OFF _DETAILMODE_PEELED_DETAILMAP__FOREST4_ _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: _ANIM_PROCEDURAL_BRANCH _DETAILMODE_OFF _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: _ANIM_SINGLE_PIVOT_COLOR _DETAILMODE_OFF _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+  - first: {fileID: -6465566751694194690, guid: b3e259512f9b34b428b085e7e7b89ada,
+      type: 3}
+    second:
+      variants:
+      - keywords: INSTANCING_ON _ALPHATEST_ON _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF
+          _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON _MASKMAP _MATERIAL_FEATURE_COLORED_TRANSMISSION
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: INSTANCING_ON _ALPHATEST_ON _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF
+          _DOUBLESIDED_ON _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: INSTANCING_ON _ALPHATEST_ON _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_
+          _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON _MASKMAP _MATERIAL_FEATURE_COLORED_TRANSMISSION
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: INSTANCING_ON _ALPHATEST_ON _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_
+          _DISABLE_SSR_TRANSPARENT _MASKMAP _MATERIAL_FEATURE_COLORED_TRANSMISSION
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: INSTANCING_ON _ALPHATEST_ON _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_
+          _DOUBLESIDED_ON _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: INSTANCING_ON _ALPHATEST_ON _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: INSTANCING_ON _ALPHATEST_ON _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _DOUBLESIDED_ON _MASKMAP _MATERIAL_FEATURE_COLORED_TRANSMISSION _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: INSTANCING_ON _ALPHATEST_ON _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _DOUBLESIDED_ON _MATERIAL_FEATURE_COLORED_TRANSMISSION _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: INSTANCING_ON _ALPHATEST_ON _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _MATERIAL_FEATURE_COLORED_TRANSMISSION _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: INSTANCING_ON _ALPHATEST_ON _ANIM_OFF _DETAILMODE_OFF _DOUBLESIDED_ON
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: INSTANCING_ON _ALPHATEST_ON _ANIM_OFF _DETAILMODE_OFF _DOUBLESIDED_ON
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: INSTANCING_ON _ALPHATEST_ON _ANIM_OFF _DETAILMODE_OFF _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: INSTANCING_ON _ALPHATEST_ON _ANIM_PROCEDURAL_BRANCH _DETAILMODE_OFF
+          _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON _MASKMAP _MATERIAL_FEATURE_COLORED_TRANSMISSION
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: INSTANCING_ON _ALPHATEST_ON _ANIM_PROCEDURAL_BRANCH _DETAILMODE_OFF
+          _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON _MASKMAP _MATERIAL_FEATURE_COLORED_TRANSMISSION
+          _NORMALMAPSPACE_TANGENT_SPACE _USETREEOCCLUSION
+        passType: 8
+      - keywords: INSTANCING_ON _ALPHATEST_ON _ANIM_PROCEDURAL_BRANCH _DETAILMODE_OFF
+          _DOUBLESIDED_ON _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: INSTANCING_ON _ALPHATEST_ON _ANIM_PROCEDURAL_BRANCH _DETAILMODE_OFF
+          _DOUBLESIDED_ON _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE _USETREEOCCLUSION
+        passType: 8
+      - keywords: INSTANCING_ON _ALPHATEST_ON _ANIM_SINGLE_PIVOT_COLOR _DETAILMODE_OFF
+          _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON _MASKMAP _MATERIAL_FEATURE_COLORED_TRANSMISSION
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: INSTANCING_ON _ALPHATEST_ON _ANIM_SINGLE_PIVOT_COLOR _DETAILMODE_OFF
+          _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON _MASKMAP _MATERIAL_FEATURE_COLORED_TRANSMISSION
+          _NORMALMAPSPACE_TANGENT_SPACE _USETREEOCCLUSION
+        passType: 8
+      - keywords: INSTANCING_ON _ALPHATEST_ON _ANIM_SINGLE_PIVOT_COLOR _DETAILMODE_OFF
+          _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON _MATERIAL_FEATURE_COLORED_TRANSMISSION
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: INSTANCING_ON _ALPHATEST_ON _ANIM_SINGLE_PIVOT_COLOR _DETAILMODE_OFF
+          _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON _MATERIAL_FEATURE_COLORED_TRANSMISSION
+          _NORMALMAPSPACE_TANGENT_SPACE _USETREEOCCLUSION
+        passType: 8
+      - keywords: INSTANCING_ON _ALPHATEST_ON _ANIM_SINGLE_PIVOT_COLOR _DETAILMODE_OFF
+          _DOUBLESIDED_ON _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: INSTANCING_ON _ALPHATEST_ON _ANIM_SINGLE_PIVOT_COLOR _DETAILMODE_OFF
+          _DOUBLESIDED_ON _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE _USETREEOCCLUSION
+        passType: 8
+      - keywords: INSTANCING_ON _ALPHATEST_ON _ANIM_SINGLE_PIVOT_COLOR _DETAILMODE_OFF
+          _DOUBLESIDED_ON _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: INSTANCING_ON _ALPHATEST_ON _ANIM_SINGLE_PIVOT_COLOR _DETAILMODE_OFF
+          _DOUBLESIDED_ON _NORMALMAPSPACE_TANGENT_SPACE _USETREEOCCLUSION
+        passType: 8
+      - keywords: _ALPHATEST_ON _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _DOUBLESIDED_ON _MASKMAP _MATERIAL_FEATURE_COLORED_TRANSMISSION _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: _ALPHATEST_ON _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF _DOUBLESIDED_ON
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: _ALPHATEST_ON _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_
+          _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON _MASKMAP _MATERIAL_FEATURE_COLORED_TRANSMISSION
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: _ALPHATEST_ON _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_
+          _DISABLE_SSR_TRANSPARENT _MASKMAP _MATERIAL_FEATURE_COLORED_TRANSMISSION
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: _ALPHATEST_ON _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_
+          _DOUBLESIDED_ON _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: _ALPHATEST_ON _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: _ALPHATEST_ON _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _DOUBLESIDED_ON _MASKMAP _MATERIAL_FEATURE_COLORED_TRANSMISSION _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: _ALPHATEST_ON _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _DOUBLESIDED_ON _MATERIAL_FEATURE_COLORED_TRANSMISSION _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: _ALPHATEST_ON _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _MASKMAP _MATERIAL_FEATURE_COLORED_TRANSMISSION _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: _ALPHATEST_ON _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _MATERIAL_FEATURE_COLORED_TRANSMISSION _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: _ALPHATEST_ON _ANIM_OFF _DETAILMODE_OFF _DOUBLESIDED_ON _MASKMAP
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: _ALPHATEST_ON _ANIM_OFF _DETAILMODE_OFF _DOUBLESIDED_ON _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: _ALPHATEST_ON _ANIM_OFF _DETAILMODE_OFF _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: _ALPHATEST_ON _ANIM_OFF _DETAILMODE_OFF _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: _ALPHATEST_ON _ANIM_PROCEDURAL_BRANCH _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _DOUBLESIDED_ON _MASKMAP _MATERIAL_FEATURE_COLORED_TRANSMISSION _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: _ALPHATEST_ON _ANIM_PROCEDURAL_BRANCH _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _DOUBLESIDED_ON _MASKMAP _MATERIAL_FEATURE_COLORED_TRANSMISSION _NORMALMAPSPACE_TANGENT_SPACE
+          _USETREEOCCLUSION
+        passType: 8
+      - keywords: _ALPHATEST_ON _ANIM_PROCEDURAL_BRANCH _DETAILMODE_OFF _DOUBLESIDED_ON
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: _ALPHATEST_ON _ANIM_PROCEDURAL_BRANCH _DETAILMODE_OFF _DOUBLESIDED_ON
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE _USETREEOCCLUSION
+        passType: 8
+      - keywords: _ALPHATEST_ON _ANIM_SINGLE_PIVOT_COLOR _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _DOUBLESIDED_ON _MASKMAP _MATERIAL_FEATURE_COLORED_TRANSMISSION _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: _ALPHATEST_ON _ANIM_SINGLE_PIVOT_COLOR _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _DOUBLESIDED_ON _MASKMAP _MATERIAL_FEATURE_COLORED_TRANSMISSION _NORMALMAPSPACE_TANGENT_SPACE
+          _USETREEOCCLUSION
+        passType: 8
+      - keywords: _ALPHATEST_ON _ANIM_SINGLE_PIVOT_COLOR _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _DOUBLESIDED_ON _MATERIAL_FEATURE_COLORED_TRANSMISSION _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: _ALPHATEST_ON _ANIM_SINGLE_PIVOT_COLOR _DETAILMODE_OFF _DOUBLESIDED_ON
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: _ALPHATEST_ON _ANIM_SINGLE_PIVOT_COLOR _DETAILMODE_OFF _DOUBLESIDED_ON
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE _USETREEOCCLUSION
+        passType: 8
+      - keywords: _ALPHATEST_ON _ANIM_SINGLE_PIVOT_COLOR _DETAILMODE_OFF _DOUBLESIDED_ON
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: _ANIM_OFF _DETAILMODE_OFF _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: WRITE_DECAL_BUFFER_AND_RENDERING_LAYER _ALPHATEST_ON _ANIM_HIERARCHY_PIVOT
+          _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON _MASKMAP _MATERIAL_FEATURE_COLORED_TRANSMISSION
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 12
+      - keywords: WRITE_DECAL_BUFFER_AND_RENDERING_LAYER _ALPHATEST_ON _ANIM_PROCEDURAL_BRANCH
+          _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON _MASKMAP _MATERIAL_FEATURE_COLORED_TRANSMISSION
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 12
+      - keywords: WRITE_DECAL_BUFFER_AND_RENDERING_LAYER _ALPHATEST_ON _ANIM_PROCEDURAL_BRANCH
+          _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON _MASKMAP _MATERIAL_FEATURE_COLORED_TRANSMISSION
+          _NORMALMAPSPACE_TANGENT_SPACE _USETREEOCCLUSION
+        passType: 12
+      - keywords: WRITE_DECAL_BUFFER_AND_RENDERING_LAYER _ALPHATEST_ON _ANIM_SINGLE_PIVOT_COLOR
+          _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON _MASKMAP _MATERIAL_FEATURE_COLORED_TRANSMISSION
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 12
+      - keywords: WRITE_DECAL_BUFFER_AND_RENDERING_LAYER _ALPHATEST_ON _ANIM_SINGLE_PIVOT_COLOR
+          _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON _MASKMAP _MATERIAL_FEATURE_COLORED_TRANSMISSION
+          _NORMALMAPSPACE_TANGENT_SPACE _USETREEOCCLUSION
+        passType: 12
+      - keywords: WRITE_DECAL_BUFFER_AND_RENDERING_LAYER _ALPHATEST_ON _ANIM_SINGLE_PIVOT_COLOR
+          _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON _MATERIAL_FEATURE_COLORED_TRANSMISSION
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 12
+      - keywords: WRITE_DECAL_BUFFER_AND_RENDERING_LAYER _ALPHATEST_ON _ANIM_SINGLE_PIVOT_COLOR
+          _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON _MATERIAL_FEATURE_COLORED_TRANSMISSION
+          _NORMALMAPSPACE_TANGENT_SPACE _USETREEOCCLUSION
+        passType: 12
+      - keywords: _ALPHATEST_ON _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF _DOUBLESIDED_ON
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 12
+      - keywords: _ALPHATEST_ON _ANIM_PROCEDURAL_BRANCH _DETAILMODE_OFF _DOUBLESIDED_ON
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 12
+      - keywords: _ALPHATEST_ON _ANIM_PROCEDURAL_BRANCH _DETAILMODE_OFF _DOUBLESIDED_ON
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE _USETREEOCCLUSION
+        passType: 12
+      - keywords: _ALPHATEST_ON _ANIM_SINGLE_PIVOT_COLOR _DETAILMODE_OFF _DOUBLESIDED_ON
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 12
+      - keywords: _ALPHATEST_ON _ANIM_SINGLE_PIVOT_COLOR _DETAILMODE_OFF _DOUBLESIDED_ON
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE _USETREEOCCLUSION
+        passType: 12
+      - keywords: _ALPHATEST_ON _ANIM_SINGLE_PIVOT_COLOR _DETAILMODE_OFF _DOUBLESIDED_ON
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 12
+      - keywords: _ALPHATEST_ON _ANIM_SINGLE_PIVOT_COLOR _DETAILMODE_OFF _DOUBLESIDED_ON
+          _NORMALMAPSPACE_TANGENT_SPACE _USETREEOCCLUSION
+        passType: 12
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT INSTANCING_ON PROBE_VOLUMES_L1
+          RENDERING_LAYERS _ALPHATEST_ON _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _DOUBLESIDED_ON _MASKMAP _MATERIAL_FEATURE_COLORED_TRANSMISSION _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT INSTANCING_ON PROBE_VOLUMES_L1
+          RENDERING_LAYERS _ALPHATEST_ON _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_
+          _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON _MASKMAP _MATERIAL_FEATURE_COLORED_TRANSMISSION
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT INSTANCING_ON PROBE_VOLUMES_L1
+          RENDERING_LAYERS _ALPHATEST_ON _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_
+          _DISABLE_SSR_TRANSPARENT _MASKMAP _MATERIAL_FEATURE_COLORED_TRANSMISSION
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT INSTANCING_ON PROBE_VOLUMES_L1
+          RENDERING_LAYERS _ALPHATEST_ON _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _DOUBLESIDED_ON _MASKMAP _MATERIAL_FEATURE_COLORED_TRANSMISSION _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT INSTANCING_ON PROBE_VOLUMES_L1
+          RENDERING_LAYERS _ALPHATEST_ON _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _MATERIAL_FEATURE_COLORED_TRANSMISSION _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT INSTANCING_ON PROBE_VOLUMES_L1
+          RENDERING_LAYERS _ALPHATEST_ON _ANIM_PROCEDURAL_BRANCH _DETAILMODE_OFF
+          _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON _MASKMAP _MATERIAL_FEATURE_COLORED_TRANSMISSION
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT INSTANCING_ON PROBE_VOLUMES_L1
+          RENDERING_LAYERS _ALPHATEST_ON _ANIM_PROCEDURAL_BRANCH _DETAILMODE_OFF
+          _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON _MASKMAP _MATERIAL_FEATURE_COLORED_TRANSMISSION
+          _NORMALMAPSPACE_TANGENT_SPACE _USETREEOCCLUSION
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT INSTANCING_ON PROBE_VOLUMES_L1
+          RENDERING_LAYERS _ALPHATEST_ON _ANIM_SINGLE_PIVOT_COLOR _DETAILMODE_OFF
+          _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON _MASKMAP _MATERIAL_FEATURE_COLORED_TRANSMISSION
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT INSTANCING_ON PROBE_VOLUMES_L1
+          RENDERING_LAYERS _ALPHATEST_ON _ANIM_SINGLE_PIVOT_COLOR _DETAILMODE_OFF
+          _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON _MASKMAP _MATERIAL_FEATURE_COLORED_TRANSMISSION
+          _NORMALMAPSPACE_TANGENT_SPACE _USETREEOCCLUSION
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT INSTANCING_ON PROBE_VOLUMES_L1
+          RENDERING_LAYERS _ALPHATEST_ON _ANIM_SINGLE_PIVOT_COLOR _DETAILMODE_OFF
+          _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON _MATERIAL_FEATURE_COLORED_TRANSMISSION
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT INSTANCING_ON PROBE_VOLUMES_L1
+          RENDERING_LAYERS _ALPHATEST_ON _ANIM_SINGLE_PIVOT_COLOR _DETAILMODE_OFF
+          _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON _MATERIAL_FEATURE_COLORED_TRANSMISSION
+          _NORMALMAPSPACE_TANGENT_SPACE _USETREEOCCLUSION
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT INSTANCING_ON PROBE_VOLUMES_L1
+          _ALPHATEST_ON _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON
+          _MASKMAP _MATERIAL_FEATURE_COLORED_TRANSMISSION _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT MINIMAL_GBUFFER PROBE_VOLUMES_L1
+          _ALPHATEST_ON _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _DOUBLESIDED_ON _MASKMAP _MATERIAL_FEATURE_COLORED_TRANSMISSION _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT MINIMAL_GBUFFER PROBE_VOLUMES_L1
+          _ALPHATEST_ON _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON
+          _MASKMAP _MATERIAL_FEATURE_COLORED_TRANSMISSION _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT MINIMAL_GBUFFER PROBE_VOLUMES_L1
+          _ALPHATEST_ON _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _MASKMAP
+          _MATERIAL_FEATURE_COLORED_TRANSMISSION _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT MINIMAL_GBUFFER PROBE_VOLUMES_L1
+          _ALPHATEST_ON _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _MATERIAL_FEATURE_COLORED_TRANSMISSION
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_L1 RENDERING_LAYERS
+          _ALPHATEST_ON _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _DOUBLESIDED_ON _MASKMAP _MATERIAL_FEATURE_COLORED_TRANSMISSION _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_L1 RENDERING_LAYERS
+          _ALPHATEST_ON _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_ _DISABLE_SSR_TRANSPARENT
+          _DOUBLESIDED_ON _MASKMAP _MATERIAL_FEATURE_COLORED_TRANSMISSION _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_L1 RENDERING_LAYERS
+          _ALPHATEST_ON _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_ _DISABLE_SSR_TRANSPARENT
+          _MASKMAP _MATERIAL_FEATURE_COLORED_TRANSMISSION _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_L1 RENDERING_LAYERS
+          _ALPHATEST_ON _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON
+          _MASKMAP _MATERIAL_FEATURE_COLORED_TRANSMISSION _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_L1 RENDERING_LAYERS
+          _ALPHATEST_ON _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON
+          _MATERIAL_FEATURE_COLORED_TRANSMISSION _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_L1 RENDERING_LAYERS
+          _ALPHATEST_ON _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _MASKMAP
+          _MATERIAL_FEATURE_COLORED_TRANSMISSION _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_L1 RENDERING_LAYERS
+          _ALPHATEST_ON _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _MATERIAL_FEATURE_COLORED_TRANSMISSION
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_L1 RENDERING_LAYERS
+          _ALPHATEST_ON _ANIM_PROCEDURAL_BRANCH _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _DOUBLESIDED_ON _MASKMAP _MATERIAL_FEATURE_COLORED_TRANSMISSION _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_L1 RENDERING_LAYERS
+          _ALPHATEST_ON _ANIM_PROCEDURAL_BRANCH _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _DOUBLESIDED_ON _MASKMAP _MATERIAL_FEATURE_COLORED_TRANSMISSION _NORMALMAPSPACE_TANGENT_SPACE
+          _USETREEOCCLUSION
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_L1 RENDERING_LAYERS
+          _ALPHATEST_ON _ANIM_SINGLE_PIVOT_COLOR _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _DOUBLESIDED_ON _MASKMAP _MATERIAL_FEATURE_COLORED_TRANSMISSION _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_L1 RENDERING_LAYERS
+          _ALPHATEST_ON _ANIM_SINGLE_PIVOT_COLOR _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _DOUBLESIDED_ON _MASKMAP _MATERIAL_FEATURE_COLORED_TRANSMISSION _NORMALMAPSPACE_TANGENT_SPACE
+          _USETREEOCCLUSION
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_L1 RENDERING_LAYERS
+          _ALPHATEST_ON _ANIM_SINGLE_PIVOT_COLOR _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _DOUBLESIDED_ON _MATERIAL_FEATURE_COLORED_TRANSMISSION _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_L1 RENDERING_LAYERS
+          _ALPHATEST_ON _ANIM_SINGLE_PIVOT_COLOR _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _DOUBLESIDED_ON _MATERIAL_FEATURE_COLORED_TRANSMISSION _NORMALMAPSPACE_TANGENT_SPACE
+          _USETREEOCCLUSION
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_L1 _ALPHATEST_ON
+          _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON _MASKMAP
+          _MATERIAL_FEATURE_COLORED_TRANSMISSION _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_L1 _ALPHATEST_ON
+          _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _MATERIAL_FEATURE_COLORED_TRANSMISSION
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: INSTANCING_ON WRITE_DECAL_BUFFER _ALPHATEST_ON _ANIM_HIERARCHY_PIVOT
+          _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON _MASKMAP _MATERIAL_FEATURE_COLORED_TRANSMISSION
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: INSTANCING_ON WRITE_DECAL_BUFFER _ALPHATEST_ON _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_
+          _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON _MASKMAP _MATERIAL_FEATURE_COLORED_TRANSMISSION
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: INSTANCING_ON WRITE_DECAL_BUFFER _ALPHATEST_ON _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_
+          _DISABLE_SSR_TRANSPARENT _MASKMAP _MATERIAL_FEATURE_COLORED_TRANSMISSION
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: INSTANCING_ON WRITE_DECAL_BUFFER _ALPHATEST_ON _ANIM_OFF _DETAILMODE_OFF
+          _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON _MASKMAP _MATERIAL_FEATURE_COLORED_TRANSMISSION
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: INSTANCING_ON WRITE_DECAL_BUFFER _ALPHATEST_ON _ANIM_OFF _DETAILMODE_OFF
+          _DISABLE_SSR_TRANSPARENT _MATERIAL_FEATURE_COLORED_TRANSMISSION _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: INSTANCING_ON WRITE_DECAL_BUFFER _ALPHATEST_ON _ANIM_PROCEDURAL_BRANCH
+          _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON _MASKMAP _MATERIAL_FEATURE_COLORED_TRANSMISSION
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: INSTANCING_ON WRITE_DECAL_BUFFER _ALPHATEST_ON _ANIM_PROCEDURAL_BRANCH
+          _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON _MASKMAP _MATERIAL_FEATURE_COLORED_TRANSMISSION
+          _NORMALMAPSPACE_TANGENT_SPACE _USETREEOCCLUSION
+        passType: 13
+      - keywords: INSTANCING_ON WRITE_DECAL_BUFFER _ALPHATEST_ON _ANIM_SINGLE_PIVOT_COLOR
+          _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON _MASKMAP _MATERIAL_FEATURE_COLORED_TRANSMISSION
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: INSTANCING_ON WRITE_DECAL_BUFFER _ALPHATEST_ON _ANIM_SINGLE_PIVOT_COLOR
+          _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON _MASKMAP _MATERIAL_FEATURE_COLORED_TRANSMISSION
+          _NORMALMAPSPACE_TANGENT_SPACE _USETREEOCCLUSION
+        passType: 13
+      - keywords: INSTANCING_ON WRITE_DECAL_BUFFER _ALPHATEST_ON _ANIM_SINGLE_PIVOT_COLOR
+          _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON _MATERIAL_FEATURE_COLORED_TRANSMISSION
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: INSTANCING_ON WRITE_DECAL_BUFFER _ALPHATEST_ON _ANIM_SINGLE_PIVOT_COLOR
+          _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON _MATERIAL_FEATURE_COLORED_TRANSMISSION
+          _NORMALMAPSPACE_TANGENT_SPACE _USETREEOCCLUSION
+        passType: 13
+      - keywords: INSTANCING_ON _ALPHATEST_ON _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF
+          _DOUBLESIDED_ON _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: INSTANCING_ON _ALPHATEST_ON _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_
+          _DOUBLESIDED_ON _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: INSTANCING_ON _ALPHATEST_ON _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: INSTANCING_ON _ALPHATEST_ON _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _DOUBLESIDED_ON _MASKMAP _MATERIAL_FEATURE_COLORED_TRANSMISSION _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: INSTANCING_ON _ALPHATEST_ON _ANIM_OFF _DETAILMODE_OFF _DOUBLESIDED_ON
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: INSTANCING_ON _ALPHATEST_ON _ANIM_OFF _DETAILMODE_OFF _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: INSTANCING_ON _ALPHATEST_ON _ANIM_PROCEDURAL_BRANCH _DETAILMODE_OFF
+          _DOUBLESIDED_ON _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: INSTANCING_ON _ALPHATEST_ON _ANIM_PROCEDURAL_BRANCH _DETAILMODE_OFF
+          _DOUBLESIDED_ON _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE _USETREEOCCLUSION
+        passType: 13
+      - keywords: INSTANCING_ON _ALPHATEST_ON _ANIM_SINGLE_PIVOT_COLOR _DETAILMODE_OFF
+          _DOUBLESIDED_ON _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: INSTANCING_ON _ALPHATEST_ON _ANIM_SINGLE_PIVOT_COLOR _DETAILMODE_OFF
+          _DOUBLESIDED_ON _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE _USETREEOCCLUSION
+        passType: 13
+      - keywords: INSTANCING_ON _ALPHATEST_ON _ANIM_SINGLE_PIVOT_COLOR _DETAILMODE_OFF
+          _DOUBLESIDED_ON _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: INSTANCING_ON _ALPHATEST_ON _ANIM_SINGLE_PIVOT_COLOR _DETAILMODE_OFF
+          _DOUBLESIDED_ON _NORMALMAPSPACE_TANGENT_SPACE _USETREEOCCLUSION
+        passType: 13
+      - keywords: WRITE_DECAL_BUFFER _ALPHATEST_ON _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF
+          _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON _MASKMAP _MATERIAL_FEATURE_COLORED_TRANSMISSION
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: WRITE_DECAL_BUFFER _ALPHATEST_ON _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_
+          _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON _MASKMAP _MATERIAL_FEATURE_COLORED_TRANSMISSION
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: WRITE_DECAL_BUFFER _ALPHATEST_ON _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_
+          _DISABLE_SSR_TRANSPARENT _MASKMAP _MATERIAL_FEATURE_COLORED_TRANSMISSION
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: WRITE_DECAL_BUFFER _ALPHATEST_ON _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _DOUBLESIDED_ON _MASKMAP _MATERIAL_FEATURE_COLORED_TRANSMISSION _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: WRITE_DECAL_BUFFER _ALPHATEST_ON _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _DOUBLESIDED_ON _MATERIAL_FEATURE_COLORED_TRANSMISSION _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: WRITE_DECAL_BUFFER _ALPHATEST_ON _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _MASKMAP _MATERIAL_FEATURE_COLORED_TRANSMISSION _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: WRITE_DECAL_BUFFER _ALPHATEST_ON _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _MATERIAL_FEATURE_COLORED_TRANSMISSION _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: WRITE_DECAL_BUFFER _ALPHATEST_ON _ANIM_PROCEDURAL_BRANCH _DETAILMODE_OFF
+          _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON _MASKMAP _MATERIAL_FEATURE_COLORED_TRANSMISSION
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: WRITE_DECAL_BUFFER _ALPHATEST_ON _ANIM_PROCEDURAL_BRANCH _DETAILMODE_OFF
+          _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON _MASKMAP _MATERIAL_FEATURE_COLORED_TRANSMISSION
+          _NORMALMAPSPACE_TANGENT_SPACE _USETREEOCCLUSION
+        passType: 13
+      - keywords: WRITE_DECAL_BUFFER _ALPHATEST_ON _ANIM_SINGLE_PIVOT_COLOR _DETAILMODE_OFF
+          _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON _MASKMAP _MATERIAL_FEATURE_COLORED_TRANSMISSION
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: WRITE_DECAL_BUFFER _ALPHATEST_ON _ANIM_SINGLE_PIVOT_COLOR _DETAILMODE_OFF
+          _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON _MASKMAP _MATERIAL_FEATURE_COLORED_TRANSMISSION
+          _NORMALMAPSPACE_TANGENT_SPACE _USETREEOCCLUSION
+        passType: 13
+      - keywords: WRITE_DECAL_BUFFER _ALPHATEST_ON _ANIM_SINGLE_PIVOT_COLOR _DETAILMODE_OFF
+          _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON _MATERIAL_FEATURE_COLORED_TRANSMISSION
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: WRITE_DECAL_BUFFER _ALPHATEST_ON _ANIM_SINGLE_PIVOT_COLOR _DETAILMODE_OFF
+          _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON _MATERIAL_FEATURE_COLORED_TRANSMISSION
+          _NORMALMAPSPACE_TANGENT_SPACE _USETREEOCCLUSION
+        passType: 13
+      - keywords: _ALPHATEST_ON _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _DOUBLESIDED_ON _MASKMAP _MATERIAL_FEATURE_COLORED_TRANSMISSION _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: _ALPHATEST_ON _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF _DOUBLESIDED_ON
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: _ALPHATEST_ON _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_
+          _DOUBLESIDED_ON _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: _ALPHATEST_ON _ANIM_OFF _DETAILMODE_DETAILMAP_ANYSNX__BUILTIN_
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: _ALPHATEST_ON _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _DOUBLESIDED_ON _MASKMAP _MATERIAL_FEATURE_COLORED_TRANSMISSION _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: _ALPHATEST_ON _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _MATERIAL_FEATURE_COLORED_TRANSMISSION _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: _ALPHATEST_ON _ANIM_OFF _DETAILMODE_OFF _DOUBLESIDED_ON _MASKMAP
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: _ALPHATEST_ON _ANIM_OFF _DETAILMODE_OFF _DOUBLESIDED_ON _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: _ALPHATEST_ON _ANIM_OFF _DETAILMODE_OFF _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: _ALPHATEST_ON _ANIM_OFF _DETAILMODE_OFF _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: _ALPHATEST_ON _ANIM_PROCEDURAL_BRANCH _DETAILMODE_OFF _DOUBLESIDED_ON
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: _ALPHATEST_ON _ANIM_PROCEDURAL_BRANCH _DETAILMODE_OFF _DOUBLESIDED_ON
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE _USETREEOCCLUSION
+        passType: 13
+      - keywords: _ALPHATEST_ON _ANIM_SINGLE_PIVOT_COLOR _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _DOUBLESIDED_ON _MASKMAP _MATERIAL_FEATURE_COLORED_TRANSMISSION _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: _ALPHATEST_ON _ANIM_SINGLE_PIVOT_COLOR _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _DOUBLESIDED_ON _MASKMAP _MATERIAL_FEATURE_COLORED_TRANSMISSION _NORMALMAPSPACE_TANGENT_SPACE
+          _USETREEOCCLUSION
+        passType: 13
+      - keywords: _ALPHATEST_ON _ANIM_SINGLE_PIVOT_COLOR _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _DOUBLESIDED_ON _MATERIAL_FEATURE_COLORED_TRANSMISSION _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: _ALPHATEST_ON _ANIM_SINGLE_PIVOT_COLOR _DETAILMODE_OFF _DOUBLESIDED_ON
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: _ALPHATEST_ON _ANIM_SINGLE_PIVOT_COLOR _DETAILMODE_OFF _DOUBLESIDED_ON
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE _USETREEOCCLUSION
+        passType: 13
+      - keywords: _ALPHATEST_ON _ANIM_SINGLE_PIVOT_COLOR _DETAILMODE_OFF _DOUBLESIDED_ON
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: _ALPHATEST_ON _ANIM_SINGLE_PIVOT_COLOR _DETAILMODE_OFF _DOUBLESIDED_ON
+          _NORMALMAPSPACE_TANGENT_SPACE _USETREEOCCLUSION
+        passType: 13
+  - first: {fileID: -6465566751694194690, guid: 28a7aca92b71a0d4d82a6ea7e08ed290,
+      type: 3}
+    second:
+      variants:
+      - keywords: INSTANCING_ON _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE _TESSELLATION_PHONG
+        passType: 8
+      - keywords: INSTANCING_ON _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _NORMALMAPSPACE_TANGENT_SPACE _TESSELLATION_PHONG
+        passType: 8
+      - keywords: INSTANCING_ON _ANIM_HIERARCHY_PIVOT _DETAILMODE_PEELED_DETAILMAP__FOREST4_
+          _DISABLE_SSR_TRANSPARENT _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE _TESSELLATION_PHONG
+        passType: 8
+      - keywords: INSTANCING_ON _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE _TESSELLATION_PHONG
+        passType: 8
+      - keywords: INSTANCING_ON _ANIM_OFF _DETAILMODE_PEELED_DETAILMAP__FOREST4_
+          _DISABLE_SSR_TRANSPARENT _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE _TESSELLATION_PHONG
+        passType: 8
+      - keywords: _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE _TESSELLATION_PHONG
+        passType: 8
+      - keywords: _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _NORMALMAPSPACE_TANGENT_SPACE _TESSELLATION_PHONG
+        passType: 8
+      - keywords: _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: _ANIM_HIERARCHY_PIVOT _DETAILMODE_PEELED_DETAILMAP__FOREST4_ _DISABLE_SSR_TRANSPARENT
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE _TESSELLATION_PHONG
+        passType: 8
+      - keywords: _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+          _TESSELLATION_PHONG
+        passType: 8
+      - keywords: _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _NORMALMAPSPACE_TANGENT_SPACE
+          _TESSELLATION_PHONG
+        passType: 8
+      - keywords: _ANIM_OFF _DETAILMODE_OFF _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 8
+      - keywords: _ANIM_OFF _DETAILMODE_PEELED_DETAILMAP__FOREST4_ _DISABLE_SSR_TRANSPARENT
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE _TESSELLATION_PHONG
+        passType: 8
+      - keywords: INSTANCING_ON WRITE_DECAL_BUFFER_AND_RENDERING_LAYER _ANIM_HIERARCHY_PIVOT
+          _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 12
+      - keywords: INSTANCING_ON WRITE_DECAL_BUFFER_AND_RENDERING_LAYER _ANIM_HIERARCHY_PIVOT
+          _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 12
+      - keywords: INSTANCING_ON WRITE_DECAL_BUFFER_AND_RENDERING_LAYER _ANIM_HIERARCHY_PIVOT
+          _DETAILMODE_PEELED_DETAILMAP__FOREST4_ _DISABLE_SSR_TRANSPARENT _MASKMAP
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 12
+      - keywords: INSTANCING_ON _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 12
+      - keywords: INSTANCING_ON _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+          _TESSELLATION_PHONG
+        passType: 12
+      - keywords: INSTANCING_ON _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 12
+      - keywords: INSTANCING_ON _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF _NORMALMAPSPACE_TANGENT_SPACE
+          _TESSELLATION_PHONG
+        passType: 12
+      - keywords: INSTANCING_ON _ANIM_HIERARCHY_PIVOT _DETAILMODE_PEELED_DETAILMAP__FOREST4_
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 12
+      - keywords: INSTANCING_ON _ANIM_HIERARCHY_PIVOT _DETAILMODE_PEELED_DETAILMAP__FOREST4_
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE _TESSELLATION_PHONG
+        passType: 12
+      - keywords: WRITE_DECAL_BUFFER_AND_RENDERING_LAYER _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF
+          _DISABLE_SSR_TRANSPARENT _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 12
+      - keywords: WRITE_DECAL_BUFFER_AND_RENDERING_LAYER _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF
+          _DISABLE_SSR_TRANSPARENT _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE _TESSELLATION_PHONG
+        passType: 12
+      - keywords: WRITE_DECAL_BUFFER_AND_RENDERING_LAYER _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF
+          _DISABLE_SSR_TRANSPARENT _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 12
+      - keywords: WRITE_DECAL_BUFFER_AND_RENDERING_LAYER _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF
+          _DISABLE_SSR_TRANSPARENT _NORMALMAPSPACE_TANGENT_SPACE _TESSELLATION_PHONG
+        passType: 12
+      - keywords: WRITE_DECAL_BUFFER_AND_RENDERING_LAYER _ANIM_HIERARCHY_PIVOT _DETAILMODE_PEELED_DETAILMAP__FOREST4_
+          _DISABLE_SSR_TRANSPARENT _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 12
+      - keywords: WRITE_DECAL_BUFFER_AND_RENDERING_LAYER _ANIM_HIERARCHY_PIVOT _DETAILMODE_PEELED_DETAILMAP__FOREST4_
+          _DISABLE_SSR_TRANSPARENT _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE _TESSELLATION_PHONG
+        passType: 12
+      - keywords: _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 12
+      - keywords: _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+          _TESSELLATION_PHONG
+        passType: 12
+      - keywords: _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 12
+      - keywords: _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF _NORMALMAPSPACE_TANGENT_SPACE
+          _TESSELLATION_PHONG
+        passType: 12
+      - keywords: _ANIM_HIERARCHY_PIVOT _DETAILMODE_PEELED_DETAILMAP__FOREST4_ _MASKMAP
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 12
+      - keywords: _ANIM_HIERARCHY_PIVOT _DETAILMODE_PEELED_DETAILMAP__FOREST4_ _MASKMAP
+          _NORMALMAPSPACE_TANGENT_SPACE _TESSELLATION_PHONG
+        passType: 12
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT INSTANCING_ON PROBE_VOLUMES_L1
+          RENDERING_LAYERS _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT INSTANCING_ON PROBE_VOLUMES_L1
+          RENDERING_LAYERS _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE _TESSELLATION_PHONG
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT INSTANCING_ON PROBE_VOLUMES_L1
+          RENDERING_LAYERS _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT INSTANCING_ON PROBE_VOLUMES_L1
+          RENDERING_LAYERS _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _NORMALMAPSPACE_TANGENT_SPACE _TESSELLATION_PHONG
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT INSTANCING_ON PROBE_VOLUMES_L1
+          RENDERING_LAYERS _ANIM_HIERARCHY_PIVOT _DETAILMODE_PEELED_DETAILMAP__FOREST4_
+          _DISABLE_SSR_TRANSPARENT _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT INSTANCING_ON PROBE_VOLUMES_L1
+          RENDERING_LAYERS _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _MASKMAP
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT INSTANCING_ON PROBE_VOLUMES_L1
+          RENDERING_LAYERS _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _MASKMAP
+          _NORMALMAPSPACE_TANGENT_SPACE _TESSELLATION_PHONG
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT INSTANCING_ON PROBE_VOLUMES_L1
+          RENDERING_LAYERS _ANIM_OFF _DETAILMODE_PEELED_DETAILMAP__FOREST4_ _DISABLE_SSR_TRANSPARENT
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT INSTANCING_ON PROBE_VOLUMES_L1
+          RENDERING_LAYERS _ANIM_OFF _DETAILMODE_PEELED_DETAILMAP__FOREST4_ _DISABLE_SSR_TRANSPARENT
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE _TESSELLATION_PHONG
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT INSTANCING_ON PROBE_VOLUMES_L1
+          _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT INSTANCING_ON PROBE_VOLUMES_L1
+          _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+          _TESSELLATION_PHONG
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_L1 RENDERING_LAYERS
+          _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _MASKMAP
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_L1 RENDERING_LAYERS
+          _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _MASKMAP
+          _NORMALMAPSPACE_TANGENT_SPACE _TESSELLATION_PHONG
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_L1 RENDERING_LAYERS
+          _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_L1 RENDERING_LAYERS
+          _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _NORMALMAPSPACE_TANGENT_SPACE
+          _TESSELLATION_PHONG
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_L1 RENDERING_LAYERS
+          _ANIM_HIERARCHY_PIVOT _DETAILMODE_PEELED_DETAILMAP__FOREST4_ _DISABLE_SSR_TRANSPARENT
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_L1 RENDERING_LAYERS
+          _ANIM_HIERARCHY_PIVOT _DETAILMODE_PEELED_DETAILMAP__FOREST4_ _DISABLE_SSR_TRANSPARENT
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE _TESSELLATION_PHONG
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_L1 RENDERING_LAYERS
+          _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_L1 RENDERING_LAYERS
+          _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+          _TESSELLATION_PHONG
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_L1 RENDERING_LAYERS
+          _ANIM_OFF _DETAILMODE_PEELED_DETAILMAP__FOREST4_ _DISABLE_SSR_TRANSPARENT
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_L1 RENDERING_LAYERS
+          _ANIM_OFF _DETAILMODE_PEELED_DETAILMAP__FOREST4_ _DISABLE_SSR_TRANSPARENT
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE _TESSELLATION_PHONG
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_L1 _ANIM_OFF _DETAILMODE_OFF
+          _DISABLE_SSR_TRANSPARENT _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: DECALS_4RT DECAL_SURFACE_GRADIENT PROBE_VOLUMES_L1 _ANIM_OFF _DETAILMODE_OFF
+          _DISABLE_SSR_TRANSPARENT _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: INSTANCING_ON WRITE_DECAL_BUFFER _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF
+          _DISABLE_SSR_TRANSPARENT _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: INSTANCING_ON WRITE_DECAL_BUFFER _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF
+          _DISABLE_SSR_TRANSPARENT _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: INSTANCING_ON WRITE_DECAL_BUFFER _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: INSTANCING_ON WRITE_DECAL_BUFFER _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE _TESSELLATION_PHONG
+        passType: 13
+      - keywords: INSTANCING_ON WRITE_DECAL_BUFFER _ANIM_OFF _DETAILMODE_PEELED_DETAILMAP__FOREST4_
+          _DISABLE_SSR_TRANSPARENT _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: INSTANCING_ON WRITE_DECAL_BUFFER _ANIM_OFF _DETAILMODE_PEELED_DETAILMAP__FOREST4_
+          _DISABLE_SSR_TRANSPARENT _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE _TESSELLATION_PHONG
+        passType: 13
+      - keywords: INSTANCING_ON _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: INSTANCING_ON _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+          _TESSELLATION_PHONG
+        passType: 13
+      - keywords: INSTANCING_ON _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: INSTANCING_ON _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF _NORMALMAPSPACE_TANGENT_SPACE
+          _TESSELLATION_PHONG
+        passType: 13
+      - keywords: INSTANCING_ON _ANIM_HIERARCHY_PIVOT _DETAILMODE_PEELED_DETAILMAP__FOREST4_
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: INSTANCING_ON _ANIM_HIERARCHY_PIVOT _DETAILMODE_PEELED_DETAILMAP__FOREST4_
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE _TESSELLATION_PHONG
+        passType: 13
+      - keywords: INSTANCING_ON _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: INSTANCING_ON _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE _TESSELLATION_PHONG
+        passType: 13
+      - keywords: INSTANCING_ON _ANIM_OFF _DETAILMODE_OFF _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: INSTANCING_ON _ANIM_OFF _DETAILMODE_OFF _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+          _TESSELLATION_PHONG
+        passType: 13
+      - keywords: INSTANCING_ON _ANIM_OFF _DETAILMODE_PEELED_DETAILMAP__FOREST4_
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: INSTANCING_ON _ANIM_OFF _DETAILMODE_PEELED_DETAILMAP__FOREST4_
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE _TESSELLATION_PHONG
+        passType: 13
+      - keywords: WRITE_DECAL_BUFFER _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: WRITE_DECAL_BUFFER _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: WRITE_DECAL_BUFFER _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: WRITE_DECAL_BUFFER _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE _TESSELLATION_PHONG
+        passType: 13
+      - keywords: WRITE_DECAL_BUFFER _ANIM_OFF _DETAILMODE_PEELED_DETAILMAP__FOREST4_
+          _DISABLE_SSR_TRANSPARENT _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: WRITE_DECAL_BUFFER _ANIM_OFF _DETAILMODE_PEELED_DETAILMAP__FOREST4_
+          _DISABLE_SSR_TRANSPARENT _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE _TESSELLATION_PHONG
+        passType: 13
+      - keywords: _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE _TESSELLATION_PHONG
+        passType: 13
+      - keywords: _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+          _TESSELLATION_PHONG
+        passType: 13
+      - keywords: _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: _ANIM_HIERARCHY_PIVOT _DETAILMODE_OFF _NORMALMAPSPACE_TANGENT_SPACE
+          _TESSELLATION_PHONG
+        passType: 13
+      - keywords: _ANIM_HIERARCHY_PIVOT _DETAILMODE_PEELED_DETAILMAP__FOREST4_ _DISABLE_SSR_TRANSPARENT
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE _TESSELLATION_PHONG
+        passType: 13
+      - keywords: _ANIM_HIERARCHY_PIVOT _DETAILMODE_PEELED_DETAILMAP__FOREST4_ _MASKMAP
+          _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: _ANIM_HIERARCHY_PIVOT _DETAILMODE_PEELED_DETAILMAP__FOREST4_ _MASKMAP
+          _NORMALMAPSPACE_TANGENT_SPACE _TESSELLATION_PHONG
+        passType: 13
+      - keywords: _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+          _TESSELLATION_PHONG
+        passType: 13
+      - keywords: _ANIM_OFF _DETAILMODE_OFF _DISABLE_SSR_TRANSPARENT _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: _ANIM_OFF _DETAILMODE_OFF _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: _ANIM_OFF _DETAILMODE_OFF _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+          _TESSELLATION_PHONG
+        passType: 13
+      - keywords: _ANIM_OFF _DETAILMODE_OFF _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: _ANIM_OFF _DETAILMODE_OFF _NORMALMAPSPACE_TANGENT_SPACE _TESSELLATION_PHONG
+        passType: 13
+      - keywords: _ANIM_OFF _DETAILMODE_PEELED_DETAILMAP__FOREST4_ _DISABLE_SSR_TRANSPARENT
+          _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE _TESSELLATION_PHONG
+        passType: 13
+      - keywords: _ANIM_OFF _DETAILMODE_PEELED_DETAILMAP__FOREST4_ _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+        passType: 13
+      - keywords: _ANIM_OFF _DETAILMODE_PEELED_DETAILMAP__FOREST4_ _MASKMAP _NORMALMAPSPACE_TANGENT_SPACE
+          _TESSELLATION_PHONG
+        passType: 13
+  - first: {fileID: 4800000, guid: 50b406436c6214c49aaaa6011b71dde8, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 5caf62d8bd7c44596ace77ef9eb8ea31, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: e96e3b8a4797c8f47b7ae6759a3e66af, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: INSTANCING_ON _TERRAIN_INSTANCED_PERPIXEL_NORMAL
+        passType: 8
+  - first: {fileID: 4800000, guid: 42be21d51861d204a889cbdf0eb57221, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 263f12c7593cf8841b5ccdbb717e3389, type: 3}
+    second:
+      variants:
+      - keywords: _NORMALMAP
+        passType: 0
+      - keywords: _NORMALMAP _TERRAIN_BLEND_HEIGHT
+        passType: 0
+  - first: {fileID: -6465566751694194690, guid: 3eaf245bc248ed849b456b90816e1e0e,
+      type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: -6465566751694194690, guid: 6eb50a55374370b40b5c7fad90d72570,
+      type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: -6465566751694194690, guid: 1128ffcd6136b4e4ea2039804d1b0c2f,
+      type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
