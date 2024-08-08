@@ -16,4 +16,7 @@ So here is the updated content, with few minor changes to match Unity's HDRP new
 => you can load BOTD gameplay content by loading BootStrapDemo.unity(which have the global volumes for sky etc) in Assets/FarFromHere/..
 Then use the SceneLoader gameObject to load the full BOTD ScenesList, press play
 
+
+![PromotionalScreenShot](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExODVpbHIweXUyaDF5d3M3dmh3dDQ2M2t6Ynl4MDFhMGxvZ2JsM2N5ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gjQayITaYM6K4YvtxH/giphy.gif)
+
 Enjoy :)
