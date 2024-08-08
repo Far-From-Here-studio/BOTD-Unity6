@@ -1,4 +1,5 @@
 # Book Of the Dead - Unity 6
+![PromotionalScreenShot](https://assetstorev1-prd-cdn.unity3d.com/package-screenshot/aa4da373-1944-4836-897d-fe786c28f2b4_scaled.jpg)
 
 Book of the Dead project for Unity6 : Updated from Delacrowa original repository : https://github.com/Delacrowa/book-of-the-dead-environment-hdrp
 special biggup to Delacrowa for storing this content and posted it to the community, and to Unity Technologiess staff that worked on this awesome demo.
