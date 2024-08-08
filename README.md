@@ -7,9 +7,11 @@ special biggup to Delacrowa for storing this content and posted it to the commun
 Old demo from 2018 and Assets store were for Unity 2018, but it have bugs and were not "as it" fully usable with lastest Unity version (2022+),
 So here is the updated content, with few minor changes to match Unity's HDRP new capacity.
 
-Complete Demo Scene
-Implemented the FFH template
-FSR2 + realtime GI setup
+.Complete original Demo Scene
+
+.Implemented the FFH template
+
+.*FSR2 + realtime GI setup*
 
 => you can load BOTD gameplay content by loading BootStrapDemo.unity(which have the global volumes for sky etc) in Assets/FarFromHere/..
 Then use the SceneLoader gameObject to load the full BOTD ScenesList, press play
