@@ -14,9 +14,30 @@ So here is the updated content, with few minor changes to match Unity's HDRP new
 .*FSR2 + realtime GI setup*
 
 => you can load BOTD gameplay content by loading BootStrapDemo.unity(which have the global volumes for sky etc) in Assets/FarFromHere/..
-Then use the SceneLoader gameObject to load the full BOTD ScenesList, press play
+Then use the SceneLoader gameObject to load the full BOTD ScenesList, press play, Enjoy :)
 
 
 ![PromotionalScreenShot](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExODVpbHIweXUyaDF5d3M3dmh3dDQ2M2t6Ynl4MDFhMGxvZ2JsM2N5ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gjQayITaYM6K4YvtxH/giphy.gif)
 
-Enjoy :)
+
+ 
+Original description :
+
+This package uses the following components under following licenses (see ThirdPartyNotices.txt file for details):
+
+  - Post-processing, Shader Graph, Render Pipeline Core, High Definition Render Pipeline, Probuilder: Unity Companion License
+  - Poly2Tri: BSD 3-clause
+  csg.js, KdTree, Cinder, pb_Stl: MIT
+  - MkDocs: BSD 2-clause
+  - Asap Font: Sil Open Font License (OFL-1.1)
+  - Noise: CC0 1.0
+  - HapkiLibs: No copyright is claimed, and you may use it for any purpose you like.
+  - TerrainEvo 3: All editor and authoring files are licensed under the Mozilla Public license v2.0; All runtime files are licensed under the BSD 3-clause.
+
+    Book of the Dead trailer
+    Forum Thread
+    Making-of Articles
+
+
+
+
