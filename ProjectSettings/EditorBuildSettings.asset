@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/FarFromHere/BootstrapDemo.unity
+    path: Assets/FarFromHere/BootstrapDemo_BOTD.unity
     guid: d588dbb59601a384fadc0ca4ab587e16
   - enabled: 1
     path: Assets/Scenes/Master.unity
