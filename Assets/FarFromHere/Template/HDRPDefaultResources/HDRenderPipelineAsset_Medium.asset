@@ -19,6 +19,7 @@ MonoBehaviour:
     supportSSAO: 1
     supportSSGI: 1
     supportSubsurfaceScattering: 1
+    subsurfaceScatteringAttenuation: 1
     sssSampleBudget:
       m_Values: 140000002800000050000000
       m_SchemaId:
@@ -30,10 +31,11 @@ MonoBehaviour:
     supportVolumetrics: 1
     supportVolumetricClouds: 1
     supportLightLayers: 1
-    renderingLayerMaskBuffer: 0
+    renderingLayerMaskBuffer: 1
     supportWater: 1
     waterSimulationResolution: 128
     supportWaterExclusion: 1
+    supportWaterHorizontalDeformation: 0
     supportWaterDecals: 1
     waterDecalAtlasSize: 1024
     maximumWaterDecalCount: 48
@@ -47,9 +49,11 @@ MonoBehaviour:
     supportDistortion: 1
     supportTransparentBackface: 0
     supportTransparentDepthPrepass: 1
-    supportTransparentDepthPostpass: 0
+    supportTransparentDepthPostpass: 1
     colorBufferFormat: 74
+    depthBufferFormat: 151
     supportCustomPass: 1
+    supportVariableRateShading: 1
     customBufferFormat: 8
     supportedLitShaderMode: 2
     planarReflectionResolution:
@@ -62,7 +66,7 @@ MonoBehaviour:
         m_Id: With3Levels
     supportDecals: 1
     supportDecalLayers: 1
-    supportSurfaceGradient: 1
+    supportSurfaceGradient: 0
     decalNormalBufferHP: 0
     supportHighQualityLineRendering: 1
     highQualityLineRenderingMemoryBudget: 128
@@ -76,10 +80,10 @@ MonoBehaviour:
     lightProbeSystem: 1
     oldLightProbeSystem: 0
     probeVolumeMemoryBudget: 512
-    supportProbeVolumeGPUStreaming: 0
-    supportProbeVolumeDiskStreaming: 0
+    supportProbeVolumeGPUStreaming: 1
+    supportProbeVolumeDiskStreaming: 1
     probeVolumeSHBands: 1
-    supportProbeVolumeScenarios: 0
+    supportProbeVolumeScenarios: 1
     supportProbeVolumeScenarioBlending: 1
     probeVolumeBlendingMemoryBudget: 128
     supportRayTracing: 1
@@ -164,15 +168,22 @@ MonoBehaviour:
       bufferFormat: 74
     dynamicResolutionSettings:
       enabled: 1
-      useMipBias: 0
+      useMipBias: 1
       advancedUpscalersByPriority: 01
+      advancedUpscalerNames:
+      - STP
       DLSSPerfQualitySetting: 0
       DLSSInjectionPoint: 0
       TAAUInjectionPoint: 0
-      STPInjectionPoint: 2
+      STPInjectionPoint: 0
       defaultInjectionPoint: 0
       DLSSUseOptimalSettings: 1
       DLSSSharpness: 1
+      DLSSRenderPresetForQuality: 0
+      DLSSRenderPresetForBalanced: 0
+      DLSSRenderPresetForPerformance: 0
+      DLSSRenderPresetForUltraPerformance: 0
+      DLSSRenderPresetForDLAA: 0
       FSR2EnableSharpness: 0
       FSR2Sharpness: 1
       FSR2UseOptimalSettings: 0
@@ -180,10 +191,10 @@ MonoBehaviour:
       FSR2InjectionPoint: 2
       fsrOverrideSharpness: 1
       fsrSharpness: 1
-      maxPercentage: 100
+      maxPercentage: 96
       minPercentage: 60
-      dynResType: 0
-      upsampleFilter: 4
+      dynResType: 1
+      upsampleFilter: 3
       forceResolution: 0
       forcedPercentage: 50
       lowResTransparencyMinimumThreshold: 0
@@ -214,6 +225,10 @@ MonoBehaviour:
       DoFResolution: 040000000200000001000000
       DoFHighQualityFiltering: 000101
       DoFPhysicallyBased: 000000
+      AdaptiveSamplingWeight:
+      - 0.5
+      - 0.75
+      - 2
       LimitManualRangeNearBlur: 000000
       MotionBlurSampleCount: 04000000080000000c000000
       BloomRes: 040000000200000002000000
@@ -226,7 +241,7 @@ MonoBehaviour:
         m_SchemaId:
           m_Id: With3Levels
     maximumLODLevel:
-      m_Values: 000000000000000000000000
+      m_Values: 010000000000000000000000
       m_SchemaId:
         m_Id: With3Levels
     lodBias:
@@ -309,7 +324,7 @@ MonoBehaviour:
       - 0.5
     gpuResidentDrawerSettings:
       mode: 1
-      smallMeshScreenPercentage: 0.1
+      smallMeshScreenPercentage: 1
       enableOcclusionCullingInCameras: 1
       useDepthPrepassForOccluders: 1
     m_ObsoleteLightLayerName0: 
@@ -358,7 +373,7 @@ MonoBehaviour:
   m_CompositorCustomVolumeComponentsList:
     m_InjectionPoint: 1
     m_CustomPostProcessTypesAsString: []
-  m_Version: 25
+  m_Version: 26
   m_ObsoleteFrameSettings:
     overrides: 0
     enableShadow: 0
@@ -552,3 +567,4 @@ MonoBehaviour:
   m_ObsoleteLensAttenuation: 0
   m_ObsoleteDiffusionProfileSettingsList: []
   m_PrefilterUseLegacyLightmaps: 0
+  m_PrefilterUseLightmapBicubicSampling: 0

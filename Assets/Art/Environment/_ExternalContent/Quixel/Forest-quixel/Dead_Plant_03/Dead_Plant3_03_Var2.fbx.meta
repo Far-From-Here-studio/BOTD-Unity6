@@ -1,99 +1,281 @@
 fileFormatVersion: 2
 guid: e27aa52e56b6a944aa07a55a93f660b2
 ModelImporter:
-  serializedVersion: 22
-  fileIDToRecycleName:
-    100000: //RootNode
-    100002: Dead_Plant_4_GRP2
-    100004: Dead_Plant_6_GRP1
-    100006: Dead_Plant_7_GRP2
-    100008: Dead_Plant_8_GRP3
-    100010: Dead_Plant_9_GRP3
-    100012: DeadPlant3_Var2_LOD0
-    100014: DeadPlant3_Var2_LOD1
-    100016: DeadPlant3_Var2_LOD2
-    100018: LOD0_Dead_Plant_4
-    100020: LOD0_Dead_Plant_6
-    100022: LOD0_Dead_Plant_7
-    100024: LOD0_Dead_Plant_8
-    100026: LOD0_Dead_Plant_9
-    100028: LOD1_Dead_Plant_4
-    100030: LOD1_Dead_Plant_6
-    100032: LOD1_Dead_Plant_7
-    100034: LOD1_Dead_Plant_8
-    100036: LOD1_Dead_Plant_9
-    100038: LOD2_Dead_Plant_4
-    100040: LOD2_Dead_Plant_6
-    100042: LOD2_Dead_Plant_7
-    100044: LOD2_Dead_Plant_8
-    100046: LOD2_Dead_Plant_9
-    100048: Plant_02
-    100050: transform28
-    100052: transform29
-    100054: transform30
-    100056: transform31
-    100058: transform32
-    100060: transform33
-    100062: transform34
-    100064: transform35
-    100066: transform36
-    100068: transform37
-    100070: transform38
-    100072: transform39
-    100074: transform40
-    100076: transform41
-    100078: transform42
-    400000: //RootNode
-    400002: Dead_Plant_4_GRP2
-    400004: Dead_Plant_6_GRP1
-    400006: Dead_Plant_7_GRP2
-    400008: Dead_Plant_8_GRP3
-    400010: Dead_Plant_9_GRP3
-    400012: DeadPlant3_Var2_LOD0
-    400014: DeadPlant3_Var2_LOD1
-    400016: DeadPlant3_Var2_LOD2
-    400018: LOD0_Dead_Plant_4
-    400020: LOD0_Dead_Plant_6
-    400022: LOD0_Dead_Plant_7
-    400024: LOD0_Dead_Plant_8
-    400026: LOD0_Dead_Plant_9
-    400028: LOD1_Dead_Plant_4
-    400030: LOD1_Dead_Plant_6
-    400032: LOD1_Dead_Plant_7
-    400034: LOD1_Dead_Plant_8
-    400036: LOD1_Dead_Plant_9
-    400038: LOD2_Dead_Plant_4
-    400040: LOD2_Dead_Plant_6
-    400042: LOD2_Dead_Plant_7
-    400044: LOD2_Dead_Plant_8
-    400046: LOD2_Dead_Plant_9
-    400048: Plant_02
-    400050: transform28
-    400052: transform29
-    400054: transform30
-    400056: transform31
-    400058: transform32
-    400060: transform33
-    400062: transform34
-    400064: transform35
-    400066: transform36
-    400068: transform37
-    400070: transform38
-    400072: transform39
-    400074: transform40
-    400076: transform41
-    400078: transform42
-    2100000: lambert2
-    2300000: DeadPlant3_Var2_LOD0
-    2300002: DeadPlant3_Var2_LOD1
-    2300004: DeadPlant3_Var2_LOD2
-    3300000: DeadPlant3_Var2_LOD0
-    3300002: DeadPlant3_Var2_LOD1
-    3300004: DeadPlant3_Var2_LOD2
-    4300000: DeadPlant3_Var2_LOD0
-    4300002: DeadPlant3_Var2_LOD1
-    4300004: DeadPlant3_Var2_LOD2
-    20500000: //RootNode
+  serializedVersion: 24200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: Dead_Plant_4_GRP2
+  - first:
+      1: 100004
+    second: Dead_Plant_6_GRP1
+  - first:
+      1: 100006
+    second: Dead_Plant_7_GRP2
+  - first:
+      1: 100008
+    second: Dead_Plant_8_GRP3
+  - first:
+      1: 100010
+    second: Dead_Plant_9_GRP3
+  - first:
+      1: 100012
+    second: DeadPlant3_Var2_LOD0
+  - first:
+      1: 100014
+    second: DeadPlant3_Var2_LOD1
+  - first:
+      1: 100016
+    second: DeadPlant3_Var2_LOD2
+  - first:
+      1: 100018
+    second: LOD0_Dead_Plant_4
+  - first:
+      1: 100020
+    second: LOD0_Dead_Plant_6
+  - first:
+      1: 100022
+    second: LOD0_Dead_Plant_7
+  - first:
+      1: 100024
+    second: LOD0_Dead_Plant_8
+  - first:
+      1: 100026
+    second: LOD0_Dead_Plant_9
+  - first:
+      1: 100028
+    second: LOD1_Dead_Plant_4
+  - first:
+      1: 100030
+    second: LOD1_Dead_Plant_6
+  - first:
+      1: 100032
+    second: LOD1_Dead_Plant_7
+  - first:
+      1: 100034
+    second: LOD1_Dead_Plant_8
+  - first:
+      1: 100036
+    second: LOD1_Dead_Plant_9
+  - first:
+      1: 100038
+    second: LOD2_Dead_Plant_4
+  - first:
+      1: 100040
+    second: LOD2_Dead_Plant_6
+  - first:
+      1: 100042
+    second: LOD2_Dead_Plant_7
+  - first:
+      1: 100044
+    second: LOD2_Dead_Plant_8
+  - first:
+      1: 100046
+    second: LOD2_Dead_Plant_9
+  - first:
+      1: 100048
+    second: Plant_02
+  - first:
+      1: 100050
+    second: transform28
+  - first:
+      1: 100052
+    second: transform29
+  - first:
+      1: 100054
+    second: transform30
+  - first:
+      1: 100056
+    second: transform31
+  - first:
+      1: 100058
+    second: transform32
+  - first:
+      1: 100060
+    second: transform33
+  - first:
+      1: 100062
+    second: transform34
+  - first:
+      1: 100064
+    second: transform35
+  - first:
+      1: 100066
+    second: transform36
+  - first:
+      1: 100068
+    second: transform37
+  - first:
+      1: 100070
+    second: transform38
+  - first:
+      1: 100072
+    second: transform39
+  - first:
+      1: 100074
+    second: transform40
+  - first:
+      1: 100076
+    second: transform41
+  - first:
+      1: 100078
+    second: transform42
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: Dead_Plant_4_GRP2
+  - first:
+      4: 400004
+    second: Dead_Plant_6_GRP1
+  - first:
+      4: 400006
+    second: Dead_Plant_7_GRP2
+  - first:
+      4: 400008
+    second: Dead_Plant_8_GRP3
+  - first:
+      4: 400010
+    second: Dead_Plant_9_GRP3
+  - first:
+      4: 400012
+    second: DeadPlant3_Var2_LOD0
+  - first:
+      4: 400014
+    second: DeadPlant3_Var2_LOD1
+  - first:
+      4: 400016
+    second: DeadPlant3_Var2_LOD2
+  - first:
+      4: 400018
+    second: LOD0_Dead_Plant_4
+  - first:
+      4: 400020
+    second: LOD0_Dead_Plant_6
+  - first:
+      4: 400022
+    second: LOD0_Dead_Plant_7
+  - first:
+      4: 400024
+    second: LOD0_Dead_Plant_8
+  - first:
+      4: 400026
+    second: LOD0_Dead_Plant_9
+  - first:
+      4: 400028
+    second: LOD1_Dead_Plant_4
+  - first:
+      4: 400030
+    second: LOD1_Dead_Plant_6
+  - first:
+      4: 400032
+    second: LOD1_Dead_Plant_7
+  - first:
+      4: 400034
+    second: LOD1_Dead_Plant_8
+  - first:
+      4: 400036
+    second: LOD1_Dead_Plant_9
+  - first:
+      4: 400038
+    second: LOD2_Dead_Plant_4
+  - first:
+      4: 400040
+    second: LOD2_Dead_Plant_6
+  - first:
+      4: 400042
+    second: LOD2_Dead_Plant_7
+  - first:
+      4: 400044
+    second: LOD2_Dead_Plant_8
+  - first:
+      4: 400046
+    second: LOD2_Dead_Plant_9
+  - first:
+      4: 400048
+    second: Plant_02
+  - first:
+      4: 400050
+    second: transform28
+  - first:
+      4: 400052
+    second: transform29
+  - first:
+      4: 400054
+    second: transform30
+  - first:
+      4: 400056
+    second: transform31
+  - first:
+      4: 400058
+    second: transform32
+  - first:
+      4: 400060
+    second: transform33
+  - first:
+      4: 400062
+    second: transform34
+  - first:
+      4: 400064
+    second: transform35
+  - first:
+      4: 400066
+    second: transform36
+  - first:
+      4: 400068
+    second: transform37
+  - first:
+      4: 400070
+    second: transform38
+  - first:
+      4: 400072
+    second: transform39
+  - first:
+      4: 400074
+    second: transform40
+  - first:
+      4: 400076
+    second: transform41
+  - first:
+      4: 400078
+    second: transform42
+  - first:
+      21: 2100000
+    second: lambert2
+  - first:
+      23: 2300000
+    second: DeadPlant3_Var2_LOD0
+  - first:
+      23: 2300002
+    second: DeadPlant3_Var2_LOD1
+  - first:
+      23: 2300004
+    second: DeadPlant3_Var2_LOD2
+  - first:
+      33: 3300000
+    second: DeadPlant3_Var2_LOD0
+  - first:
+      33: 3300002
+    second: DeadPlant3_Var2_LOD1
+  - first:
+      33: 3300004
+    second: DeadPlant3_Var2_LOD2
+  - first:
+      43: 4300000
+    second: DeadPlant3_Var2_LOD0
+  - first:
+      43: 4300002
+    second: DeadPlant3_Var2_LOD1
+  - first:
+      43: 4300004
+    second: DeadPlant3_Var2_LOD2
+  - first:
+      205: 20500000
+    second: //RootNode
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -101,7 +283,7 @@ ModelImporter:
       name: lambert2
     second: {fileID: 2100000, guid: 8012f207862e7884d87f2ea72c10b5c4, type: 2}
   materials:
-    importMaterials: 0
+    materialImportMode: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 0
@@ -110,9 +292,8 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -127,41 +308,61 @@ ModelImporter:
     extraExposedTransformPaths: []
     extraUserProperties: []
     clipAnimations: []
-    isReadable: 1
+    isReadable: 0
   meshes:
     lODScreenPercentages:
     - 0.25
     - 0.125
     - 0.01
     globalScale: 1
-    meshCompression: 0
+    meshCompression: 2
     addColliders: 0
-    importVisibility: 1
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 0
+    importVisibility: 0
     importBlendShapes: 0
-    importCameras: 1
-    importLights: 1
+    importCameras: 0
+    importLights: 0
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    generateMeshLods: 1
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    meshOptimizationFlags: -1
     indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
+    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 0
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -171,14 +372,19 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 0
   humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: model_processed_v01
   assetBundleName: 

@@ -201,9 +201,15 @@ MonoBehaviour:
   m_PhysicallyBased:
     m_OverrideState: 1
     m_Value: 0
+  m_AdaptiveSamplingWeight:
+    m_OverrideState: 0
+    m_Value: 0.75
   m_LimitManualRangeNearBlur:
     m_OverrideState: 1
     m_Value: 0
+  coCStabilization:
+    m_OverrideState: 0
+    m_Value: 1
 --- !u!114 &-7877608111273750291
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -243,10 +249,10 @@ MonoBehaviour:
     m_Value: 16.7
   numPrimarySteps:
     m_OverrideState: 1
-    m_Value: 159
+    m_Value: 64
   numLightSteps:
     m_OverrideState: 1
-    m_Value: 4
+    m_Value: 2
   cloudMap:
     m_OverrideState: 1
     m_Value: {fileID: 0}
@@ -1039,6 +1045,9 @@ MonoBehaviour:
   tileOpacityThreshold:
     m_OverrideState: 1
     m_Value: 1
+  writeDepthAlphaThreshold:
+    m_OverrideState: 0
+    m_Value: 0
 --- !u!114 &-4513876765429427888
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1265,7 +1274,7 @@ MonoBehaviour:
   interCascadeBorders: 1
   maxShadowDistance:
     m_OverrideState: 1
-    m_Value: 225
+    m_Value: 170
   directionalTransmissionMultiplier:
     m_OverrideState: 1
     m_Value: 0.75
@@ -1542,10 +1551,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 464f6e0848260324ba3912158c965f9a, type: 3}
   m_Name: AutoFocusProperties
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   influence:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0.007
   focusDistanceWalk:
     m_OverrideState: 1
     m_Value: 10
@@ -2064,7 +2073,7 @@ MonoBehaviour:
   active: 1
   enable:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0
   triangleSize:
     m_OverrideState: 1
     m_Value: 30
@@ -2320,6 +2329,9 @@ MonoBehaviour:
   tileOpacityThreshold:
     m_OverrideState: 1
     m_Value: 0.95
+  writeDepthAlphaThreshold:
+    m_OverrideState: 0
+    m_Value: 0
 --- !u!114 &3529461499456240551
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -2369,7 +2381,7 @@ MonoBehaviour:
   active: 1
   windGlobalStrengthScale:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0.69
   windGlobalStrengthAudioInfluence:
     m_OverrideState: 1
     m_Value: 0
@@ -2797,7 +2809,7 @@ MonoBehaviour:
   active: 1
   quality:
     m_OverrideState: 1
-    m_Value: 3
+    m_Value: 0
   enabled:
     m_OverrideState: 1
     m_Value: 1
@@ -2845,7 +2857,7 @@ MonoBehaviour:
     m_Value: 50
   denoisingMode:
     m_OverrideState: 1
-    m_Value: 3
+    m_Value: 2
   anisotropy:
     m_OverrideState: 1
     m_Value: 0
@@ -2866,10 +2878,10 @@ MonoBehaviour:
     m_Value: 156
   m_VolumetricFogBudget:
     m_OverrideState: 1
-    m_Value: 0.666
+    m_Value: 0.166
   m_ResolutionDepthRatio:
     m_OverrideState: 1
-    m_Value: 0.646
+    m_Value: 0.666
   directionalLightsOnly:
     m_OverrideState: 1
     m_Value: 0
@@ -2913,6 +2925,9 @@ MonoBehaviour:
   cullingDistance:
     m_OverrideState: 1
     m_Value: 1000
+  minSolidAngle:
+    m_OverrideState: 0
+    m_Value: 4
 --- !u!114 &8709231146350172498
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -2925,7 +2940,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f0e6cbf0e506941a19fadaa71f906f, type: 3}
   m_Name: CullingProperties
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   target:
     m_OverrideState: 1
     m_Value:
@@ -2933,34 +2948,34 @@ MonoBehaviour:
       defaultValue: {fileID: 0}
   environmentSmallCullDistance:
     m_OverrideState: 1
-    m_Value: 40
+    m_Value: 50
   environmentSmallShadowCullDistance:
     m_OverrideState: 1
-    m_Value: 32
+    m_Value: 50
   environmentLargeCullDistance:
     m_OverrideState: 1
-    m_Value: 150
+    m_Value: 50
   environmentLargeShadowCullDistance:
     m_OverrideState: 1
-    m_Value: 150
+    m_Value: 50
   undergrowthSmallCullDistance:
     m_OverrideState: 1
-    m_Value: 26
+    m_Value: 50
   undergrowthSmallShadowCullDistance:
     m_OverrideState: 1
-    m_Value: 14
+    m_Value: 50
   undergrowthMediumCullDistance:
     m_OverrideState: 1
-    m_Value: 45
+    m_Value: 50
   undergrowthMediumShadowCullDistance:
     m_OverrideState: 1
-    m_Value: 30
+    m_Value: 50
   undergrowthLargeCullDistance:
     m_OverrideState: 1
-    m_Value: 46
+    m_Value: 50
   undergrowthLargeShadowCullDistance:
     m_OverrideState: 1
-    m_Value: 34
+    m_Value: 50
 --- !u!114 &9107225676202404009
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -2985,13 +3000,13 @@ MonoBehaviour:
     m_Value: 1
   tracing:
     m_OverrideState: 1
-    m_Value: 2
+    m_Value: 1
   m_MinSmoothness:
     m_OverrideState: 1
-    m_Value: 0.085
+    m_Value: 0.519
   m_SmoothnessFadeStart:
     m_OverrideState: 1
-    m_Value: 0.361
+    m_Value: 0.843
   reflectSky:
     m_OverrideState: 1
     m_Value: 1
@@ -3000,10 +3015,10 @@ MonoBehaviour:
     m_Value: 0
   depthBufferThickness:
     m_OverrideState: 1
-    m_Value: 0.01
+    m_Value: 0.026
   screenFadeDistance:
     m_OverrideState: 1
-    m_Value: 0.1
+    m_Value: 0.268
   accumulationFactor:
     m_OverrideState: 1
     m_Value: 0.75
@@ -3030,7 +3045,7 @@ MonoBehaviour:
     m_Value: 0
   m_RayMaxIterations:
     m_OverrideState: 1
-    m_Value: 256
+    m_Value: 16
   rayMiss:
     m_OverrideState: 1
     m_Value: 3
@@ -3078,6 +3093,11 @@ MonoBehaviour:
   m_RayMaxIterationsRT:
     m_OverrideState: 1
     m_Value: 48
+  adaptiveProbeVolumesLayerMask:
+    m_OverrideState: 0
+    m_Value:
+      serializedVersion: 0
+      m_Bits: 1
 --- !u!114 &9132815020589394317
 MonoBehaviour:
   m_ObjectHideFlags: 3

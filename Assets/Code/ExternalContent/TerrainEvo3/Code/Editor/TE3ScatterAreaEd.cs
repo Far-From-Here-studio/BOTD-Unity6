@@ -173,8 +173,8 @@ public class TE3ScatterAreaEd : Editor {
                     var meshCollider = child.gameObject.AddComponent<MeshCollider>();
 			        meshCollider.sharedMesh = child.GetComponent<MeshFilter>().sharedMesh;
                     if (proxy.inflateConvexHull) {
-                        meshCollider.inflateMesh = true;
-                        meshCollider.skinWidth = 0.001f;
+                        //meshCollider.inflateMesh = true;
+                        //meshCollider.skinWidth = 0.001f;
                     }
 			        meshCollider.convex = true;
 			        m_addedColliders.Add(meshCollider);

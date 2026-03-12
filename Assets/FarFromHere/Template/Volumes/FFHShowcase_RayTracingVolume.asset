@@ -89,6 +89,9 @@ MonoBehaviour:
   cullingDistance:
     m_OverrideState: 1
     m_Value: 256
+  minSolidAngle:
+    m_OverrideState: 0
+    m_Value: 4
 --- !u!114 &-3815183274238227051
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -120,7 +123,7 @@ MonoBehaviour:
   active: 1
   quality:
     m_OverrideState: 1
-    m_Value: 2
+    m_Value: 3
   rayTracing:
     m_OverrideState: 1
     m_Value: 0
@@ -138,7 +141,7 @@ MonoBehaviour:
     m_Value: 0.273
   temporalAccumulation:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0
   ghostingReduction:
     m_OverrideState: 1
     m_Value: 0.541
@@ -164,7 +167,7 @@ MonoBehaviour:
     m_Value: 16
   m_FullResolution:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0
   m_MaximumRadiusInPixels:
     m_OverrideState: 1
     m_Value: 80
@@ -173,7 +176,7 @@ MonoBehaviour:
     m_Value: 1
   m_DirectionCount:
     m_OverrideState: 1
-    m_Value: 4
+    m_Value: 3
   m_RayLength:
     m_OverrideState: 1
     m_Value: 20
@@ -224,10 +227,10 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value: 1
   intensityMultiplier:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 1
   skyOcclusionIntensityMultiplier:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 1
   worldOffset:
     m_OverrideState: 0
@@ -269,7 +272,7 @@ MonoBehaviour:
   active: 1
   quality:
     m_OverrideState: 1
-    m_Value: 2
+    m_Value: 0
   enable:
     m_OverrideState: 1
     m_Value: 1
@@ -292,19 +295,19 @@ MonoBehaviour:
     m_Value: 1
   m_MaxRaySteps:
     m_OverrideState: 1
-    m_Value: 512
+    m_Value: 16
   m_DenoiseSS:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0
   m_HalfResolutionDenoiserSS:
     m_OverrideState: 1
     m_Value: 0
   m_DenoiserRadiusSS:
     m_OverrideState: 1
-    m_Value: 0.7
+    m_Value: 0
   m_SecondDenoiserPassSS:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0
   lastBounceFallbackHierarchy:
     m_OverrideState: 1
     m_Value: 1
@@ -472,6 +475,11 @@ MonoBehaviour:
   m_RayMaxIterationsRT:
     m_OverrideState: 1
     m_Value: 32
+  adaptiveProbeVolumesLayerMask:
+    m_OverrideState: 0
+    m_Value:
+      serializedVersion: 0
+      m_Bits: 1
 --- !u!114 &5907743829506222505
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -487,13 +495,13 @@ MonoBehaviour:
   active: 1
   indirectDiffuseLightingMultiplier:
     m_OverrideState: 1
-    m_Value: 0.44
+    m_Value: 1
   indirectDiffuseLightingLayers:
     m_OverrideState: 1
     m_Value: 255
   reflectionLightingMultiplier:
     m_OverrideState: 1
-    m_Value: 0.16
+    m_Value: 0.5
   reflectionLightingLayers:
     m_OverrideState: 0
     m_Value: 255

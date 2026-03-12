@@ -1,46 +1,122 @@
 fileFormatVersion: 2
 guid: 071b49e04a844bc4eb52a1f30e0ac362
 ModelImporter:
-  serializedVersion: 22
-  fileIDToRecycleName:
-    100000: Aset_rock_granite_M_rgAsy_LOD0
-    100002: //RootNode
-    100004: //RootNode
-    100006: Rock_Granite_rcCwC_LOD0
-    100008: Rock_Granite_rcCwC_LOD1
-    100010: Rock_Granite_rcCwC_LOD2
-    100012: Rock_Granite_rcCwC_LOD3
-    100014: Rock_Granite_rcCwC_LOD4
-    400000: Aset_rock_granite_M_rgAsy_LOD0
-    400002: //RootNode
-    400004: //RootNode
-    400006: Rock_Granite_rcCwC_LOD0
-    400008: Rock_Granite_rcCwC_LOD1
-    400010: Rock_Granite_rcCwC_LOD2
-    400012: Rock_Granite_rcCwC_LOD3
-    400014: Rock_Granite_rcCwC_LOD4
-    2300000: Aset_rock_granite_M_rgAsy_LOD0
-    2300002: //RootNode
-    2300004: Rock_Granite_rcCwC_LOD0
-    2300006: Rock_Granite_rcCwC_LOD1
-    2300008: Rock_Granite_rcCwC_LOD2
-    2300010: Rock_Granite_rcCwC_LOD3
-    2300012: Rock_Granite_rcCwC_LOD4
-    3300000: Aset_rock_granite_M_rgAsy_LOD0
-    3300002: //RootNode
-    3300004: Rock_Granite_rcCwC_LOD0
-    3300006: Rock_Granite_rcCwC_LOD1
-    3300008: Rock_Granite_rcCwC_LOD2
-    3300010: Rock_Granite_rcCwC_LOD3
-    3300012: Rock_Granite_rcCwC_LOD4
-    4300000: Game_Master_LOD0
-    4300002: Rock_Granite_rcCwC_LOD0
-    4300004: Rock_Granite_rcCwC_LOD1
-    4300006: Rock_Granite_rcCwC_LOD2
-    4300008: Rock_Granite_rcCwC_LOD3
-    4300010: Rock_Granite_rcCwC_LOD4
-    20500000: //RootNode
-    20500002: //RootNode
+  serializedVersion: 24200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Aset_rock_granite_M_rgAsy_LOD0
+  - first:
+      1: 100002
+    second: //RootNode
+  - first:
+      1: 100004
+    second: //RootNode
+  - first:
+      1: 100006
+    second: Rock_Granite_rcCwC_LOD0
+  - first:
+      1: 100008
+    second: Rock_Granite_rcCwC_LOD1
+  - first:
+      1: 100010
+    second: Rock_Granite_rcCwC_LOD2
+  - first:
+      1: 100012
+    second: Rock_Granite_rcCwC_LOD3
+  - first:
+      1: 100014
+    second: Rock_Granite_rcCwC_LOD4
+  - first:
+      4: 400000
+    second: Aset_rock_granite_M_rgAsy_LOD0
+  - first:
+      4: 400002
+    second: //RootNode
+  - first:
+      4: 400004
+    second: //RootNode
+  - first:
+      4: 400006
+    second: Rock_Granite_rcCwC_LOD0
+  - first:
+      4: 400008
+    second: Rock_Granite_rcCwC_LOD1
+  - first:
+      4: 400010
+    second: Rock_Granite_rcCwC_LOD2
+  - first:
+      4: 400012
+    second: Rock_Granite_rcCwC_LOD3
+  - first:
+      4: 400014
+    second: Rock_Granite_rcCwC_LOD4
+  - first:
+      23: 2300000
+    second: Aset_rock_granite_M_rgAsy_LOD0
+  - first:
+      23: 2300002
+    second: //RootNode
+  - first:
+      23: 2300004
+    second: Rock_Granite_rcCwC_LOD0
+  - first:
+      23: 2300006
+    second: Rock_Granite_rcCwC_LOD1
+  - first:
+      23: 2300008
+    second: Rock_Granite_rcCwC_LOD2
+  - first:
+      23: 2300010
+    second: Rock_Granite_rcCwC_LOD3
+  - first:
+      23: 2300012
+    second: Rock_Granite_rcCwC_LOD4
+  - first:
+      33: 3300000
+    second: Aset_rock_granite_M_rgAsy_LOD0
+  - first:
+      33: 3300002
+    second: //RootNode
+  - first:
+      33: 3300004
+    second: Rock_Granite_rcCwC_LOD0
+  - first:
+      33: 3300006
+    second: Rock_Granite_rcCwC_LOD1
+  - first:
+      33: 3300008
+    second: Rock_Granite_rcCwC_LOD2
+  - first:
+      33: 3300010
+    second: Rock_Granite_rcCwC_LOD3
+  - first:
+      33: 3300012
+    second: Rock_Granite_rcCwC_LOD4
+  - first:
+      43: 4300000
+    second: Game_Master_LOD0
+  - first:
+      43: 4300002
+    second: Rock_Granite_rcCwC_LOD0
+  - first:
+      43: 4300004
+    second: Rock_Granite_rcCwC_LOD1
+  - first:
+      43: 4300006
+    second: Rock_Granite_rcCwC_LOD2
+  - first:
+      43: 4300008
+    second: Rock_Granite_rcCwC_LOD3
+  - first:
+      43: 4300010
+    second: Rock_Granite_rcCwC_LOD4
+  - first:
+      205: 20500000
+    second: //RootNode
+  - first:
+      205: 20500002
+    second: //RootNode
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -53,7 +129,7 @@ ModelImporter:
       name: Rock_Granite_rcCwC_mat
     second: {fileID: 2100000, guid: d9edb76ea2971f348ae474bca3de67d6, type: 2}
   materials:
-    importMaterials: 0
+    materialImportMode: 0
     materialName: 2
     materialSearch: 1
     materialLocation: 0
@@ -62,9 +138,8 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -79,7 +154,7 @@ ModelImporter:
     extraExposedTransformPaths: []
     extraUserProperties: []
     clipAnimations: []
-    isReadable: 1
+    isReadable: 0
   meshes:
     lODScreenPercentages:
     - 0.25
@@ -88,34 +163,54 @@ ModelImporter:
     - 0.03125
     - 0.01
     globalScale: 1
-    meshCompression: 0
+    meshCompression: 2
     addColliders: 0
-    importVisibility: 1
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 0
+    importVisibility: 0
     importBlendShapes: 0
-    importCameras: 1
-    importLights: 1
+    importCameras: 0
+    importLights: 0
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    generateMeshLods: 1
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
+    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 0
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -125,14 +220,19 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 0
   humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: model_processed_v01
   assetBundleName: 

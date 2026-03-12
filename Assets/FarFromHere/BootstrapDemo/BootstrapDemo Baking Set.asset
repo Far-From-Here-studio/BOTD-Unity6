@@ -18,9 +18,9 @@ MonoBehaviour:
     m_Version: 1
     dilationSettings:
       enableDilation: 1
-      dilationDistance: 1
+      dilationDistance: 0.33
       dilationValidityThreshold: 0.25
-      dilationIterations: 1
+      dilationIterations: 3
       squaredDistWeighting: 1
     virtualOffsetSettings:
       useVirtualOffset: 1
@@ -30,7 +30,7 @@ MonoBehaviour:
       rayOriginBias: -0.001
       collisionMask:
         serializedVersion: 2
-        m_Bits: 32769
+        m_Bits: 16744465
   m_SceneGUIDs:
   - d588dbb59601a384fadc0ca4ab587e16
   - fc1e6a0c2803d9444a02fce99b5b0fb2
@@ -82,15 +82,15 @@ MonoBehaviour:
       m_Values: []
     m_Asset: {fileID: 0}
   chunkSizeInBricks: 128
-  maxCellPosition: {x: -1, y: 2, z: -1}
-  minCellPosition: {x: -5, y: 1, z: -4}
+  maxCellPosition: {x: -3, y: 5, z: -5}
+  minCellPosition: {x: -14, y: 3, z: -11}
   globalBounds:
-    m_Center: {x: -243, y: 121.5, z: -202.5}
-    m_Extent: {x: 162, y: 40.5, z: 121.5}
-  bakedSimplificationLevels: 3
+    m_Center: {x: -229.5, y: 108, z: -216}
+    m_Extent: {x: 148.5, y: 27, z: 81}
+  bakedSimplificationLevels: 2
   bakedMinDistanceBetweenProbes: 1
   bakedProbeOcclusion: 1
-  bakedSkyOcclusionValue: 0
+  bakedSkyOcclusionValue: 1
   bakedSkyShadingDirectionValue: 0
   bakedProbeOffset: {x: 0, y: 0, z: 0}
   bakedMaskCount: 1
@@ -99,15 +99,15 @@ MonoBehaviour:
     y: 0
     z: 0
     w: 0
-  maxSHChunkCount: 56
+  maxSHChunkCount: 6
   L0ChunkSize: 65536
   L1ChunkSize: 32768
   L2TextureChunkSize: 32768
   ProbeOcclusionChunkSize: 32768
   sharedValidityMaskChunkSize: 8192
-  sharedSkyOcclusionL0L1ChunkSize: 0
+  sharedSkyOcclusionL0L1ChunkSize: 65536
   sharedSkyShadingDirectionIndicesChunkSize: 0
-  sharedDataChunkSize: 8192
+  sharedDataChunkSize: 73728
   supportPositionChunkSize: 98304
   supportValidityChunkSize: 32768
   supportTouchupChunkSize: 32768
@@ -115,16 +115,16 @@ MonoBehaviour:
   supportOffsetsChunkSize: 98304
   supportDataChunkSize: 262144
   lightingScenario: Default
-  version: 1
+  version: 2
   freezePlacement: 0
   probeOffset: {x: 0, y: 0, z: 0}
-  simplificationLevels: 3
+  simplificationLevels: 2
   minDistanceBetweenProbes: 1
   renderersLayerMask:
     serializedVersion: 2
     m_Bits: 4358145
   minRendererVolumeSize: 0.1
-  skyOcclusion: 0
+  skyOcclusion: 1
   skyOcclusionBakingSamples: 2048
   skyOcclusionBakingBounces: 2
   skyOcclusionAverageAlbedo: 0.6
@@ -148,8 +148,8 @@ MonoBehaviour:
     - hasProbeVolume: 1
       bakeScene: 1
       bounds:
-        m_Center: {x: -243, y: 121.5, z: -202.5}
-        m_Extent: {x: 162, y: 40.5, z: 121.5}
+        m_Center: {x: -229.5, y: 108, z: -216}
+        m_Extent: {x: 148.5, y: 27, z: 81}
     - hasProbeVolume: 0
       bakeScene: 1
       bounds:
