@@ -486,10 +486,10 @@ MonoBehaviour:
     m_Value: 0.603
   densityMultiplier:
     m_OverrideState: 1
-    m_Value: 0.637
+    m_Value: 1
   shapeFactor:
     m_OverrideState: 1
-    m_Value: 0.388
+    m_Value: 0.67
   shapeScale:
     m_OverrideState: 1
     m_Value: 24.7
@@ -1135,13 +1135,13 @@ MonoBehaviour:
   active: 1
   indirectDiffuseLightingMultiplier:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0.5
   indirectDiffuseLightingLayers:
     m_OverrideState: 1
     m_Value: 65535
   reflectionLightingMultiplier:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0.5
   reflectionLightingLayers:
     m_OverrideState: 1
     m_Value: 65535
@@ -1242,7 +1242,7 @@ MonoBehaviour:
     m_Value: {fileID: 0}
   intensity:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 0.21
   m_MaxSamples:
     m_OverrideState: 1
     m_Value: 6
@@ -1430,7 +1430,7 @@ MonoBehaviour:
   active: 1
   distance:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 0.021
   cropToFit:
     m_OverrideState: 1
     m_Value: 1
@@ -2809,7 +2809,7 @@ MonoBehaviour:
   active: 1
   quality:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 1
   enabled:
     m_OverrideState: 1
     m_Value: 1
@@ -2821,13 +2821,13 @@ MonoBehaviour:
     m_Value: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
   tint:
     m_OverrideState: 1
-    m_Value: {r: 0.24363652, g: 0.64239115, b: 0.7075472, a: 1}
+    m_Value: {r: 0.22846209, g: 0.29768154, b: 0.3207547, a: 1}
   maxFogDistance:
     m_OverrideState: 1
     m_Value: 1500
   mipFogMaxMip:
     m_OverrideState: 1
-    m_Value: 0.395
+    m_Value: 0.5
   mipFogNear:
     m_OverrideState: 1
     m_Value: 0
@@ -2839,19 +2839,19 @@ MonoBehaviour:
     m_Value: 0
   maximumHeight:
     m_OverrideState: 1
-    m_Value: 500
+    m_Value: 150
   meanFreePath:
     m_OverrideState: 1
-    m_Value: 1000
+    m_Value: 250
   enableVolumetricFog:
     m_OverrideState: 1
     m_Value: 1
   albedo:
     m_OverrideState: 1
-    m_Value: {r: 0.3009968, g: 0.6323946, b: 0.7169812, a: 1}
+    m_Value: {r: 0.9528302, g: 0.9528302, b: 0.9528302, a: 1}
   globalLightProbeDimmer:
     m_OverrideState: 1
-    m_Value: 0.431
+    m_Value: 0.23
   depthExtent:
     m_OverrideState: 1
     m_Value: 50
@@ -2860,10 +2860,10 @@ MonoBehaviour:
     m_Value: 2
   anisotropy:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 0.072
   sliceDistributionUniformity:
     m_OverrideState: 1
-    m_Value: 0.568
+    m_Value: 0.5
   multipleScatteringIntensity:
     m_OverrideState: 1
     m_Value: 0
@@ -2878,7 +2878,7 @@ MonoBehaviour:
     m_Value: 156
   m_VolumetricFogBudget:
     m_OverrideState: 1
-    m_Value: 0.166
+    m_Value: 0.33
   m_ResolutionDepthRatio:
     m_OverrideState: 1
     m_Value: 0.666
