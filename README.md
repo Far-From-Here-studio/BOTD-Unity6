@@ -5,7 +5,7 @@ Book of the Dead project for Unity6: Updated from Delacrowa's original repositor
 Special biggup to Delacrowa for hosting this content and posting it to the community, and to Unity Technologies' staff who worked on this awesome demo.
 
 Old demo from 2018 and Assets store were for Unity 2018, but it had bugs and were not "as it" fully usable with the latest Unity version (2022+).
-So here is the updated content, with a few minor changes to match Unity's HDRP new capacity.
+So here is the updated content, with a few minor changes to match Unity's HDRP new capacity:
 
 .Complete original Demo Scene
 
@@ -13,10 +13,12 @@ So here is the updated content, with a few minor changes to match Unity's HDRP n
 
 .*FSR2 + realtime GI setup* (recentlky changed)
 
-How to => you can load BOTD gameplay content by loading BootStrapDemo.unity(which have the global volumes for sky etc) in Assets/FarFromHere/..
+## How to =>
+
+You can load BOTD gameplay content by loading BootStrapDemo.unity(which have the global volumes for sky etc) in Assets/FarFromHere/..
 Then use the SceneLoader gameObject to load the full BOTD ScenesList, press play, and enjoy :)
 
-Lastest Updataes :
+### Lastest Updataes :
 . Added Mesh LOD to some mesh 
 
 . Removed FSR2 to use STP + DynaResoltion => try 
@@ -27,7 +29,9 @@ Lastest Updataes :
 
 With this update, I can run the 2K-resolution rendering (dynamic resolution On) at an average of 80 FPS with no slowness on a 3060.
 
-# Suggestion: You should really try to test out the Demo, magnifying it with a cinematic resolution like 2850/1000px, this should give a quite insane result on your screen.
+# Suggestion: 
+
+You should really try to test out the Demo, magnifying it with a cinematic resolution like 2850/1000px, this should give a quite insane result on your screen.
 
 ![PromotionalScreenShot](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExODVpbHIweXUyaDF5d3M3dmh3dDQ2M2t6Ynl4MDFhMGxvZ2JsM2N5ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gjQayITaYM6K4YvtxH/giphy.gif)
 
