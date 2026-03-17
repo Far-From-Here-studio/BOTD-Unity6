@@ -17,12 +17,13 @@ How to => you can load BOTD gameplay content by loading BootStrapDemo.unity(whic
 Then use the SceneLoader gameObject to load the full BOTD ScenesList, press play, and enjoy :)
 
 Lastest Updataes :
-.Added Mesh LOD to some mesh 
-.Removed FSR2 to use STP + DynaResoltion => try 
-.Restored a lighting Closer to the Original Demo content, restored layer culling functionalities
+. Added Mesh LOD to some mesh 
+. Removed FSR2 to use STP + DynaResoltion => try 
+. Restored lighting closer to the Original Demo content, restored layer culling functionality, and a few other features on the Cinemachine 3 cameras. I added a flying camera using the new Input system by default, but you can, of course, re-enable the original FPS player controller. 
 
 With this update, I can run the 2K-resolution rendering (dynamic resolution On) at an average of 80 FPS with no slowness on a 3060.
-Suggestion: You should really try to test out the Demo, magnifying it with a cinematic resolution like 2850/1000px, this should give a quite insane result on your screen.
+
+#Suggestion: You should really try to test out the Demo, magnifying it with a cinematic resolution like 2850/1000px, this should give a quite insane result on your screen.
 
 ![PromotionalScreenShot](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExODVpbHIweXUyaDF5d3M3dmh3dDQ2M2t6Ynl4MDFhMGxvZ2JsM2N5ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gjQayITaYM6K4YvtxH/giphy.gif)
 
